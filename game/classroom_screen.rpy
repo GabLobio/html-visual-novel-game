@@ -84,7 +84,7 @@ screen lesson_ui():
         ypos 720
         idle "images/interactive_button/btn_lesson_10.png"
         hover "images/interactive_button/hover_lesson_10.png"
-        action Jump("lesson_teen")         
+        action Jump("lesson_ten")         
 
 
 
