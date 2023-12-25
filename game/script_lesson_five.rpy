@@ -4,6 +4,12 @@
 
 label lesson_five:
 
+    if lesson_four_finish:
+        jump lessonAttributeIntro
+    else:
+        "Please finish lesson 4"
+        call screen lesson_ui
+
     #jump lessonFiveFillFourtyseven
 
     label lessonAttributeIntro:

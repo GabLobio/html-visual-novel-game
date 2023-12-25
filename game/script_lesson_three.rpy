@@ -1,6 +1,12 @@
 label lesson_three:
 
     #jump lessonThreeFillTwentyFour
+    if lesson_two_finish:
+        jump lessonThreeIntro
+    else:
+        "Please finish lesson 2"
+        call screen lesson_ui    
+
 
     label lessonThreeIntro:
         scene lesson_three_intro

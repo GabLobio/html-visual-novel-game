@@ -9,7 +9,12 @@
 
 label lesson_ten:
 
-    jump lessonTenFillEleven
+    if lesson_nine_finish:
+        jump lessonTableIntro
+    else:
+        "Please finish lesson 9"
+        call screen lesson_ui
+
 
     label lessonTableIntro:
         scene lesson_table_intro

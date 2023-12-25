@@ -1,5 +1,10 @@
 label lesson_two:
 
+    if lesson_one_finish:
+        jump lessonTwoIntro
+    else:
+        "Please finish lesson 1"
+        call screen lesson_ui
 
     
     label lessonTwoIntro:

@@ -17,6 +17,12 @@
 label lesson_nine:
 
     #jump lessonNineFillFive
+    if lesson_eight_finish:
+        jump lessonDivideIntro
+    else:
+        "Please finish lesson 8"
+        call screen lesson_ui
+
 
     label lessonDivideIntro:
         scene lesson_divide_intro

@@ -8,6 +8,11 @@
 
 label lesson_six:
 
+    if lesson_five_finish:
+        jump lessonDropDownIntro
+    else:
+        "Please finish lesson 5"
+        call screen lesson_ui
 
 
     label lessonDropDownIntro:

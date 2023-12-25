@@ -13,6 +13,8 @@ image lof12 = "images/lesson_one/Lesson 1.12.png"
 
 label lesson_one:
 
+
+
     label tutorial:
         scene dnd_tutorial
         "Before we start the lesson, let's discuss what drag-and-drop is."
@@ -378,7 +380,7 @@ label lesson_one:
         show lesson_one_takeaways
         "In the next lesson, you’ll learn about a new HTML element: the heading.    "
 
-
+    call screen lesson_ui
 
     label you_pass:
         "You did it"
