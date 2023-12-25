@@ -12,7 +12,7 @@ image lof12 = "images/lesson_one/Lesson 1.12.png"
 
 
 label lesson_one:
-
+    scene bg_classroom
 
 
     label tutorial:

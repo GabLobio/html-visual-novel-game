@@ -7,6 +7,8 @@
 
 
 label lesson_six:
+    scene bg_classroom
+
 
     if lesson_five_finish:
         jump lessonDropDownIntro

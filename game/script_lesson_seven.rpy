@@ -9,7 +9,7 @@
 
 
 label lesson_seven:
-
+    scene bg_classroom
     #jump lessonSevenFillTwentysix
     if lesson_six_finish:
         jump lessonPageIntro

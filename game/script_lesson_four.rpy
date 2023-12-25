@@ -1,5 +1,5 @@
 label lesson_four:
-
+    scene bg_classroom
     #jump lessonFourFillTwentyThree
     if lesson_three_finish:
         jump lessonFourFillOne

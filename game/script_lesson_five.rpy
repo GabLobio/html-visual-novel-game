@@ -3,7 +3,7 @@
 
 
 label lesson_five:
-
+    scene bg_classroom
     if lesson_four_finish:
         jump lessonAttributeIntro
     else:

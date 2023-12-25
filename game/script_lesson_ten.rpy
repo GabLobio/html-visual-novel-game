@@ -8,6 +8,7 @@
 
 
 label lesson_ten:
+    scene bg_classroom
 
     if lesson_nine_finish:
         jump lessonTableIntro

@@ -1,4 +1,5 @@
 label lesson_two:
+    scene bg_classroom
 
     if lesson_one_finish:
         jump lessonTwoIntro

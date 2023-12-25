@@ -15,7 +15,7 @@
 
 
 label lesson_nine:
-
+    scene bg_classroom
     #jump lessonNineFillFive
     if lesson_eight_finish:
         jump lessonDivideIntro
