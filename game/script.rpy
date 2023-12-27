@@ -26,6 +26,8 @@ label start:
 
     jump lesson_ten
 
+    label classroom_scene:
+        "Dito na lang"
     
 
     return
