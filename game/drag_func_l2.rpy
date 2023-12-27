@@ -11,7 +11,6 @@ init python:
                 if dropped_on.drag_name == "h1_place":
                     dragged_items[0].snap(dropped_on.x, dropped_on.y, 0.1)
                     ans_f0_was_dropped = True
-                    print("Answer h1 dropped on h1_place.")
 
             if dragged_items[0].drag_name == "answer_p":
 
@@ -41,7 +40,6 @@ init python:
                 if dropped_on.drag_name == "h2_place":
                     dragged_items[0].snap(dropped_on.x, dropped_on.y, 0.1)
                     ans_ft_was_dropped = True
-                    print("Answer h1 dropped on h1_place.")
 
             if dragged_items[0].drag_name == "answer_/h2":
 

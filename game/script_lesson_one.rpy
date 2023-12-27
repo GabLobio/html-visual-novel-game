@@ -13,7 +13,13 @@ image lof12 = "images/lesson_one/Lesson 1.12.png"
 
 label lesson_one:
     scene bg_classroom
+    "Ready to dive into the world of drag-and-drop? Let's start with a few friendly tutorials to get the hang of it!"
 
+    label button_tutorial:
+        scene lesson_tutorial_next
+        "When you're all set, hit the next button to move on to the next exciting challenge. Enjoy the journey!"
+        scene lesson_tutorial_reset
+        "If you ever feel stuck, just hit the reset button to give it another shot."
 
     label tutorial:
         scene dnd_tutorial
