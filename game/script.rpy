@@ -31,5 +31,8 @@ label start:
             "Start Final Test":
                 jump start_final_test
     
+    label start_final_test:
+        call screen scrollable_screen
+    
 
     return
