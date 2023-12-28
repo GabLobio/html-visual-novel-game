@@ -16,18 +16,20 @@ default lesson_ten_finish = False
 
 label start:
 
-    call screen lesson_ui
+    scene bg_classroom
 
-    jump lesson_seven
+    "You are in the Classroom right now"
 
-    jump lesson_eight
 
-    jump lesson_nine
+    call screen classroom_ui
 
-    jump lesson_ten
+    label lesson_choices:
 
-    label classroom_scene:
-        "Dito na lang"
+        menu:
+            "Start Lesson":
+                call screen lessons
+            "Start Final Test":
+                jump start_final_test
     
 
     return
