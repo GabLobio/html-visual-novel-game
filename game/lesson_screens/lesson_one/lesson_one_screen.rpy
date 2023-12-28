@@ -84,7 +84,7 @@ screen lesson_one_fill():
             drag_raise True
             drag_name "answer_<"
             dragged dragged_func_lesson_1
-            text " < " size 40 color "#ffffff" 
+            text " < " size 40 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 385
@@ -93,7 +93,7 @@ screen lesson_one_fill():
             drag_raise True
             drag_name "answer_>"
             dragged dragged_func_lesson_1
-            text " > " size 40 color "#ffffff" 
+            text " > " size 40 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ] 
 
         
         
@@ -155,7 +155,7 @@ screen lesson_two_fill():
             drag_raise True
             drag_name "answer_button"
             dragged dragged_func_lesson_2
-            text "button" size 32 color "#ffffff" 
+            text "button" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 470
@@ -163,7 +163,7 @@ screen lesson_two_fill():
             drag_raise True
             drag_name "answer_>"
             dragged dragged_func_lesson_2
-            text "   >   " size 32 color "#ffffff" 
+            text "   >   " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -236,7 +236,7 @@ screen lesson_three_fill():
             drag_name "answer_fl2"
             dragged dragged_func_lesson_3
             default wasDropped = False
-            text ">" size 32 color "#ffffff" 
+            text ">" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -246,7 +246,7 @@ screen lesson_three_fill():
             drag_name "answer_<"
             dragged dragged_func_lesson_3
             default wasDropped = False
-            text "<" size 32 color "#ffffff" 
+            text "<" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
             
             
@@ -307,7 +307,7 @@ screen lesson_four_fill():
             drag_raise True
             drag_name "answer_btn"
             dragged dragged_func_lesson_4
-            text "<button>" size 32 color "#ffffff" 
+            text "<button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 550
@@ -316,7 +316,7 @@ screen lesson_four_fill():
             drag_raise True
             drag_name "answer_img"
             dragged dragged_func_lesson_4
-            text "<img>" size 32 color "#ffffff"
+            text "<img>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 700
@@ -325,7 +325,7 @@ screen lesson_four_fill():
             drag_raise True
             drag_name "answer_tp"
             dragged dragged_func_lesson_4
-            text "<p>" size 32 color "#ffffff"
+            text "<p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 810
@@ -334,7 +334,7 @@ screen lesson_four_fill():
             drag_raise True
             drag_name "answer_tbl"
             dragged dragged_func_lesson_4
-            text "<table>" size 32 color "#ffffff" 
+            text "<table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
             
             
@@ -423,7 +423,7 @@ screen lesson_five_fill():
             drag_raise True
             drag_name "answer_html"
             dragged dragged_func_lo_5
-            text "HTML" size 32 color "#ffffff" 
+            text "HTML" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 470
@@ -432,7 +432,7 @@ screen lesson_five_fill():
             drag_raise True
             drag_name "answer_js"
             dragged dragged_func_lo_5
-            text "JavaScript" size 32 color "#ffffff"
+            text "JavaScript" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 660
@@ -441,7 +441,7 @@ screen lesson_five_fill():
             drag_raise True
             drag_name "answer_css"
             dragged dragged_func_lo_5
-            text "CSS" size 32 color "#ffffff"
+            text "CSS" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
             
         # Drop Place
@@ -520,7 +520,7 @@ screen lesson_six_fill():
             drag_raise True
             drag_name "answer_like"
             dragged dragged_func_lo_6
-            text "    Like  " size 32 color "#ffffff" 
+            text "    Like  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 470
@@ -529,7 +529,7 @@ screen lesson_six_fill():
             drag_raise True
             drag_name "answer_btntg"
             dragged dragged_func_lo_6
-            text "<button>" size 32 color "#ffffff" 
+            text "<button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -600,7 +600,7 @@ screen lesson_seven_fill():
             drag_raise True
             drag_name "answer_btn"
             dragged dragged_func_lo_7
-            text "</close>" size 32 color "#ffffff" 
+            text "</close>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 540
@@ -609,7 +609,7 @@ screen lesson_seven_fill():
             drag_raise True
             drag_name "answer_/btn"
             dragged dragged_func_lo_7
-            text "</button>" size 32 color "#ffffff" 
+            text "</button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -673,7 +673,7 @@ screen lesson_eighth_fill():
             drag_raise True
             drag_name "answer_like"
             dragged dragged_func_lo_8
-            text "    like   " size 32 color "#ffffff" 
+            text "    like   " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 500
@@ -682,7 +682,7 @@ screen lesson_eighth_fill():
             drag_raise True
             drag_name "answer_comment"
             dragged dragged_func_lo_8
-            text "comment" size 32 color "#ffffff" 
+            text "comment" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -745,7 +745,7 @@ screen lesson_nine_fill():
             drag_raise True
             drag_name "answer_p"
             dragged dragged_func_lo_9
-            text " <p> " size 32 color "#ffffff" 
+            text " <p> " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -754,7 +754,7 @@ screen lesson_nine_fill():
             drag_raise True
             drag_name "answer_p2"
             dragged dragged_func_lo_9
-            text " </p> " size 32 color "#ffffff" 
+            text " </p> " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 580
@@ -763,7 +763,7 @@ screen lesson_nine_fill():
             drag_raise True
             drag_name "answer_img"
             dragged dragged_func_lo_9
-            text "<img>" size 32 color "#ffffff" 
+            text "<img>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -836,7 +836,7 @@ screen lesson_ten_fill():
             drag_raise True
             drag_name "answer_ft1"
             dragged dragged_func_lo_10
-            text "<p>" size 32 color "#ffffff" 
+            text "<p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -845,7 +845,7 @@ screen lesson_ten_fill():
             drag_raise True
             drag_name "answer_ft2"
             dragged dragged_func_lo_10
-            text "text" size 32 color "#ffffff" 
+            text "text" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 540
@@ -854,7 +854,7 @@ screen lesson_ten_fill():
             drag_raise True
             drag_name "answer_ft3"
             dragged dragged_func_lo_10
-            text "</p>" size 32 color "#ffffff" 
+            text "</p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -948,7 +948,7 @@ screen lesson_eleven_fill():
             drag_raise True
             drag_name "answer_el1"
             dragged dragged_func_lo_11
-            text "An image and button" size 32 color "#ffffff" 
+            text "An image and button" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 350
@@ -957,7 +957,7 @@ screen lesson_eleven_fill():
             drag_raise True
             drag_name "answer_el2"
             dragged dragged_func_lo_11
-            text "A paragraph text and a button" size 32 color "#ffffff" 
+            text "A paragraph text and a button" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         # Drop Place
@@ -1018,7 +1018,7 @@ screen lesson_twelve_fill():
             drag_raise True
             drag_name "answer_t1"
             dragged dragged_func_lo_12
-            text "<p>" size 32 color "#ffffff" 
+            text "<p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -1027,7 +1027,7 @@ screen lesson_twelve_fill():
             drag_raise True
             drag_name "answer_t2"
             dragged dragged_func_lo_12
-            text "</button>" size 32 color "#ffffff" 
+            text "</button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         # Drop Place
