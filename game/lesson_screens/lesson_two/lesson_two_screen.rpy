@@ -183,10 +183,11 @@ screen lesson_two_ls6_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 885
-        ypos 890
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if line_one_value == "" and line_two_value == "" and line_three_value == "" and line_four_value == "" and line_five_value == "":
             action ShowMenu("error_msg")
         elif line_one_value == "</h1>" and line_two_value == "<p>" and line_three_value == "<h2>" and line_four_value == "</p>" and line_five_value == "<button>":
@@ -320,10 +321,11 @@ screen error_msg():
     image "images/transparent_bg.png"
         
     text "Error!!!" size 28 color "#4E4E4E" xpos 990 ypos 215 xoffset 6 yoffset 6
-    textbutton "Return":
-        xpos 1720
-        ypos 890
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/reset_button.png"
+        hover "images/interactive_button/reset_button_hover.png"
         action Return()
 
 screen wrong_input_modal():
