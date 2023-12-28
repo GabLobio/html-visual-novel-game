@@ -27,7 +27,7 @@ label start:
 
         menu:
             "Start Lesson":
-                call screen lessons
+                call screen lesson_ui
             "Start Final Test":
                 jump start_final_test
     

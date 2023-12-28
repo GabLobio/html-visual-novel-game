@@ -1,6 +1,17 @@
 
 
 
+screen classroom_ui():
+    image "images/bg_classroom.png"
+
+    imagebutton:
+        xpos 1233
+        ypos 478
+        idle "images/mrs_rodriguez_button.png"
+        hover "images/mrs_rodriguez_button_hover.png"
+        action Jump("lesson_choices")
+
+
 
 
 screen lesson_ui():
