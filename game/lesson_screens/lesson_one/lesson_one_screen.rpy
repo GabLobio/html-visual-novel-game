@@ -895,12 +895,12 @@ screen lesson_before_eleven_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lesson_one_11_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lesson_one_11_run") 
 
 
 ###########################################################################################################################

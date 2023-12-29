@@ -18,7 +18,7 @@ label start:
 
     scene bg_classroom
 
-    jump lessonTwoFillFive
+    jump lessonAttributeIntro
 
     "You are in the Classroom right now"
 

@@ -45,7 +45,7 @@ screen lesson_five_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_1
-            text "    link  " size 32 color "#ffffff" 
+            text "    link  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -54,7 +54,7 @@ screen lesson_five_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_1
-            text "    url  " size 32 color "#ffffff"
+            text "    url  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 630
@@ -63,7 +63,7 @@ screen lesson_five_ls1_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_1
-            text "source" size 32 color "#ffffff"
+            text "source" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -125,7 +125,7 @@ screen lesson_five_ls2_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_2
-            text "    url  " size 32 color "#ffffff" 
+            text "    url  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -134,7 +134,7 @@ screen lesson_five_ls2_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_2
-            text "    link  " size 32 color "#ffffff"
+            text "    link  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 630
@@ -143,7 +143,7 @@ screen lesson_five_ls2_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_2
-            text "   href  " size 32 color "#ffffff"
+            text "   href  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -205,7 +205,7 @@ screen lesson_five_ls4_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_4
-            text "in the closing tag" size 32 color "#ffffff" 
+            text "in the closing tag" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 660
@@ -214,7 +214,7 @@ screen lesson_five_ls4_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_4
-            text "in the opening tag" size 32 color "#ffffff"
+            text "in the opening tag" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -275,7 +275,7 @@ screen lesson_five_ls5_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_5
-            text "  alt  " size 32 color "#ffffff" 
+            text "  alt  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -284,7 +284,7 @@ screen lesson_five_ls5_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_5
-            text "desc" size 32 color "#ffffff"
+            text "desc" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -346,7 +346,7 @@ screen lesson_five_ls7_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_7
-            text '"http://www.image.png"' size 32 color "#ffffff" 
+            text '"http://www.image.png"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 787
@@ -355,7 +355,7 @@ screen lesson_five_ls7_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_7
-            text "src" size 32 color "#ffffff"
+            text "src" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -427,7 +427,7 @@ screen lesson_five_ls8_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_8
-            text "src" size 32 color "#ffffff" 
+            text "src" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -436,7 +436,7 @@ screen lesson_five_ls8_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_8
-            text "alt" size 32 color "#ffffff"
+            text "alt" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 590
@@ -445,7 +445,7 @@ screen lesson_five_ls8_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_8
-            text "img" size 32 color "#ffffff"
+            text "img" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 710
@@ -454,7 +454,7 @@ screen lesson_five_ls8_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lfv_8
-            text "href" size 32 color "#ffffff"
+            text "href" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -492,12 +492,12 @@ screen lesson_five_ls9_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_nine") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_nine") 
 
 
 ###########################################################################################################################
@@ -549,7 +549,7 @@ screen lesson_five_ls10_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_10
-            text '"alt"' size 32 color "#ffffff" 
+            text '"alt"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -558,7 +558,7 @@ screen lesson_five_ls10_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_10
-            text '"300"' size 32 color "#ffffff"
+            text '"300"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 610
@@ -567,7 +567,7 @@ screen lesson_five_ls10_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_10
-            text "width" size 32 color "#ffffff"
+            text "width" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -598,12 +598,12 @@ screen lesson_five_ls11_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_eleven") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_eleven") 
 
 
 ###########################################################################################################################
@@ -614,12 +614,12 @@ screen lesson_five_ls12_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_twelve") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_twelve") 
 
 
 ###########################################################################################################################
@@ -672,7 +672,7 @@ screen lesson_five_ls15_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_15
-            text "user" size 32 color "#ffffff" 
+            text "user" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -681,7 +681,7 @@ screen lesson_five_ls15_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_15
-            text "navigate" size 32 color "#ffffff"
+            text "navigate" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 670
@@ -690,7 +690,7 @@ screen lesson_five_ls15_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_15
-            text "rankings" size 32 color "#ffffff"
+            text "rankings" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -769,7 +769,7 @@ screen lesson_five_ls16_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_16
-            text "Navigating" size 32 color "#ffffff" 
+            text "Navigating" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 580
@@ -778,7 +778,7 @@ screen lesson_five_ls16_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_16
-            text "Multi-page" size 32 color "#ffffff"
+            text "Multi-page" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
 
@@ -849,7 +849,7 @@ screen lesson_five_ls17_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_17
-            text "<url>" size 32 color "#ffffff" 
+            text "<url>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -858,7 +858,7 @@ screen lesson_five_ls17_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_17
-            text "<nav>" size 32 color "#ffffff"
+            text "<nav>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 640
@@ -867,7 +867,7 @@ screen lesson_five_ls17_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_17
-            text "<a>" size 32 color "#ffffff"
+            text "<a>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
 
@@ -933,7 +933,7 @@ screen lesson_five_ls18_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_18
-            text "<nav>" size 32 color "#ffffff" 
+            text "<nav>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -942,7 +942,7 @@ screen lesson_five_ls18_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_18
-            text "</nav>" size 32 color "#ffffff"
+            text "</nav>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 640
@@ -951,7 +951,7 @@ screen lesson_five_ls18_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_18
-            text "<a>" size 32 color "#ffffff"
+            text "<a>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 740
@@ -960,7 +960,7 @@ screen lesson_five_ls18_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lfv_18
-            text "</a>" size 32 color "#ffffff"
+            text "</a>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
 
@@ -1046,7 +1046,7 @@ screen lesson_five_ls19_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_19
-            text "4" size 32 color "#ffffff" 
+            text "4" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -1055,7 +1055,7 @@ screen lesson_five_ls19_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_19
-            text "3" size 32 color "#ffffff"
+            text "3" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 640
@@ -1064,7 +1064,7 @@ screen lesson_five_ls19_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_19
-            text "5" size 32 color "#ffffff"
+            text "5" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -1085,12 +1085,12 @@ screen lesson_five_ls21_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_twentyone") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_twentyone") 
 
 
 ###########################################################################################################################
@@ -1140,7 +1140,7 @@ screen lesson_five_ls23_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_23
-            text "1" size 32 color "#ffffff" 
+            text "1" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 448
@@ -1149,7 +1149,7 @@ screen lesson_five_ls23_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_23
-            text "As many files as the number of sections" size 32 color "#ffffff"
+            text "As many files as the number of sections" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 1160
@@ -1158,7 +1158,7 @@ screen lesson_five_ls23_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_23
-            text "2" size 32 color "#ffffff"
+            text "2" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
     
         
         
@@ -1220,7 +1220,7 @@ screen lesson_five_ls24_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_24
-            text "jump" size 32 color "#ffffff" 
+            text "jump" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -1229,7 +1229,7 @@ screen lesson_five_ls24_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_24
-            text "  id" size 32 color "#ffffff"
+            text "  id" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         
@@ -1291,7 +1291,7 @@ screen lesson_five_ls25_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_25
-            text "id" size 32 color "#ffffff" 
+            text "id" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -1300,7 +1300,7 @@ screen lesson_five_ls25_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_25
-            text ' " ' size 32 color "#ffffff"
+            text ' " ' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 600
@@ -1309,7 +1309,7 @@ screen lesson_five_ls25_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_25
-            text "link" size 32 color "#ffffff"
+            text "link" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         
@@ -1379,7 +1379,7 @@ screen lesson_five_ls27_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_27
-            text "</a>" size 32 color "#ffffff" 
+            text "</a>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 510
@@ -1388,7 +1388,7 @@ screen lesson_five_ls27_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_27
-            text 'href' size 32 color "#ffffff"
+            text 'href' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
             
         
         
@@ -1457,7 +1457,7 @@ screen lesson_five_ls29_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_29
-            text "survey" size 32 color "#ffffff" 
+            text "survey" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 550
@@ -1466,7 +1466,7 @@ screen lesson_five_ls29_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_29
-            text '<form>' size 32 color "#ffffff"
+            text '<form>' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
             
         
         
@@ -1488,12 +1488,12 @@ screen lesson_five_ls30_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_thirty") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_thirty") 
 
 
 ###########################################################################################################################
@@ -1504,12 +1504,12 @@ screen lesson_five_ls31_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_thirtyone") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_thirtyone") 
 
 
 ###########################################################################################################################
@@ -1560,7 +1560,7 @@ screen lesson_five_ls32_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_32
-            text "</form>" size 32 color "#ffffff" 
+            text "</form>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 580
@@ -1569,7 +1569,7 @@ screen lesson_five_ls32_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_32
-            text '</label>' size 32 color "#ffffff"
+            text '</label>' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
             
         
         
@@ -1599,12 +1599,12 @@ screen lesson_five_ls33_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_thirtythree") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_thirtythree") 
 
 
 ###########################################################################################################################
@@ -1615,12 +1615,12 @@ screen lesson_five_ls34_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_thirtyfour") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_thirtyfour") 
 
 
 ###########################################################################################################################
@@ -1670,7 +1670,7 @@ screen lesson_five_ls35_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_35
-            text '"radio1"' size 32 color "#ffffff" 
+            text '"radio1"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 580
@@ -1679,7 +1679,7 @@ screen lesson_five_ls35_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_35
-            text '"r2"' size 32 color "#ffffff"
+            text '"r2"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 700
@@ -1688,7 +1688,7 @@ screen lesson_five_ls35_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_35
-            text '"r1"' size 32 color "#ffffff"
+            text '"r1"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
             
         
         
@@ -1750,7 +1750,7 @@ screen lesson_five_ls36_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_36
-            text 'id' size 32 color "#ffffff" 
+            text 'id' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -1759,7 +1759,7 @@ screen lesson_five_ls36_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_36
-            text 'for' size 32 color "#ffffff"
+            text 'for' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1829,7 +1829,7 @@ screen lesson_five_ls40_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_40
-            text 'missing id attributes' size 32 color "#ffffff" 
+            text 'missing id attributes' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 335
@@ -1838,7 +1838,7 @@ screen lesson_five_ls40_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_40
-            text 'labels should appear before the inputs' size 32 color "#ffffff"
+            text 'labels should appear before the inputs' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 335
@@ -1847,7 +1847,7 @@ screen lesson_five_ls40_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_40
-            text '<label> is an empty tag' size 32 color "#ffffff"
+            text '<label> is an empty tag' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1911,7 +1911,7 @@ screen lesson_five_ls41_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_41
-            text '     for' size 32 color "#ffffff" 
+            text '     for' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -1920,7 +1920,7 @@ screen lesson_five_ls41_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_41
-            text '<label' size 32 color "#ffffff"
+            text '<label' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 580
@@ -1929,7 +1929,7 @@ screen lesson_five_ls41_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_41
-            text '      id' size 32 color "#ffffff"
+            text '      id' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 720
@@ -1938,7 +1938,7 @@ screen lesson_five_ls41_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lfv_41
-            text '</form>' size 32 color "#ffffff"
+            text '</form>' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -2023,7 +2023,7 @@ screen lesson_five_ls42_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_42
-            text 'label and form fields are displayed on the same line' size 32 color "#ffffff" 
+            text 'label and form fields are displayed on the same line' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 335
@@ -2032,7 +2032,7 @@ screen lesson_five_ls42_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_42
-            text 'label and form fields are displayed in the same color' size 32 color "#ffffff"
+            text 'label and form fields are displayed in the same color' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 335
@@ -2041,7 +2041,7 @@ screen lesson_five_ls42_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_42
-            text 'hitting the label selects the form field' size 32 color "#ffffff"
+            text 'hitting the label selects the form field' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -2102,7 +2102,7 @@ screen lesson_five_ls43_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_43
-            text 'A table' size 32 color "#ffffff" 
+            text 'A table' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 335
@@ -2111,7 +2111,7 @@ screen lesson_five_ls43_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_43
-            text 'A form with two input fields' size 32 color "#ffffff"
+            text 'A form with two input fields' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2174,7 +2174,7 @@ screen lesson_five_ls44_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_44
-            text '"submit"' size 32 color "#ffffff" 
+            text '"submit"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -2183,7 +2183,7 @@ screen lesson_five_ls44_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_44
-            text 'type' size 32 color "#ffffff"
+            text 'type' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2252,7 +2252,7 @@ screen lesson_five_ls45_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_45
-            text 'A computer that is always connected to the Internet and \n              listening for requests of information' size 32 color "#ffffff" 
+            text 'A computer that is always connected to the Internet and \n              listening for requests of information' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 338
@@ -2261,7 +2261,7 @@ screen lesson_five_ls45_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_45
-            text 'The device that is being used to access the Web' size 32 color "#ffffff"
+            text 'The device that is being used to access the Web' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2326,7 +2326,7 @@ screen lesson_five_ls46_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_46
-            text '"city"' size 32 color "#ffffff" 
+            text '"city"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 523
@@ -2335,7 +2335,7 @@ screen lesson_five_ls46_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_46
-            text 'name' size 32 color "#ffffff"
+            text 'name' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2406,7 +2406,7 @@ screen lesson_five_ls50_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_50
-            text 'label' size 32 color "#ffffff" 
+            text 'label' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 338
@@ -2415,7 +2415,7 @@ screen lesson_five_ls50_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_50
-            text 'input fields' size 32 color "#ffffff"
+            text 'input fields' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2479,7 +2479,7 @@ screen lesson_five_ls51_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_51
-            text 'id' size 32 color "#ffffff" 
+            text 'id' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 421
@@ -2488,7 +2488,7 @@ screen lesson_five_ls51_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_51
-            text 'for' size 32 color "#ffffff"
+            text 'for' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2558,7 +2558,7 @@ screen lesson_five_ls52_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_52
-            text '  co' size 32 color "#ffffff" 
+            text '  co' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -2567,7 +2567,7 @@ screen lesson_five_ls52_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_52
-            text '  em' size 32 color "#ffffff"
+            text '  em' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 627
@@ -2576,7 +2576,7 @@ screen lesson_five_ls52_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_52
-            text 'email' size 32 color "#ffffff"
+            text 'email' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2639,7 +2639,7 @@ screen lesson_five_ls53_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_53
-            text 'value' size 32 color "#ffffff" 
+            text 'value' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 470
@@ -2648,7 +2648,7 @@ screen lesson_five_ls53_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_53
-            text 'name' size 32 color "#ffffff"
+            text 'name' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2718,7 +2718,7 @@ screen lesson_five_ls55_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lfv_55
-            text 'field (column) named "cash"' size 32 color "#ffffff" 
+            text 'field (column) named "cash"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 353
@@ -2727,7 +2727,7 @@ screen lesson_five_ls55_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lfv_55
-            text 'field (column) named "radio"' size 32 color "#ffffff"
+            text 'field (column) named "radio"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 354
@@ -2736,7 +2736,7 @@ screen lesson_five_ls55_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lfv_55
-            text 'field (column) named "pay"' size 32 color "#ffffff"
+            text 'field (column) named "pay"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -2759,12 +2759,12 @@ screen lesson_five_ls56_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_five_fiftysix") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_five_fiftysix") 
 
 
 ###########################################################################################################################

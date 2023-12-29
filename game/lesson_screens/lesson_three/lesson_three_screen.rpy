@@ -2,10 +2,11 @@ screen error_msg():
     image "images/transparent_bg.png"
         
     text "Error!!!" size 28 color "#4E4E4E" xpos 990 ypos 215 xoffset 6 yoffset 6
-    textbutton "Return":
-        xpos 1720
-        ypos 890
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/reset_button.png"
+        hover "images/interactive_button/reset_button_hover.png"
         action Return()
 
 
@@ -56,7 +57,7 @@ screen lesson_three_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_1
-            text " # " size 32 color "#ffffff" 
+            text " # " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 430
@@ -65,7 +66,7 @@ screen lesson_three_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_1
-            text " <!-- " size 32 color "#ffffff"
+            text " <!-- " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -131,7 +132,7 @@ screen lesson_three_ls2_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_2
-            text " <!-- " size 32 color "#ffffff" 
+            text " <!-- " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -140,7 +141,7 @@ screen lesson_three_ls2_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_2
-            text " --> " size 32 color "#ffffff"
+            text " --> " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -173,12 +174,12 @@ screen lesson_three_ls3_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("llt_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("llt_when_run") 
 
 
 ########################################################################################################################### 
@@ -228,7 +229,7 @@ screen lesson_three_ls4_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_4
-            text " <!-- " size 32 color "#ffffff" 
+            text " <!-- " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -237,7 +238,7 @@ screen lesson_three_ls4_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_4
-            text " --> " size 32 color "#ffffff"
+            text " --> " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -270,12 +271,12 @@ screen lesson_three_ls5_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lthf_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lthf_when_run") 
 
 
 ###########################################################################################################################
@@ -286,12 +287,12 @@ screen lesson_three_ls6_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lths_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lths_when_run") 
 
 
 ###########################################################################################################################
@@ -341,7 +342,7 @@ screen lesson_three_ls8_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_8
-            text "<enter>" size 32 color "#ffffff" 
+            text "<enter>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -350,7 +351,7 @@ screen lesson_three_ls8_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_8
-            text "<br>" size 32 color "#ffffff"
+            text "<br>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -375,12 +376,12 @@ screen lesson_three_ls9_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lthn_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lthn_when_run") 
 
 
 ###########################################################################################################################s
@@ -430,7 +431,7 @@ screen lesson_three_ls12_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_12
-            text " br " size 32 color "#ffffff" 
+            text " br " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 460
@@ -439,7 +440,7 @@ screen lesson_three_ls12_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_12
-            text " /p " size 32 color "#ffffff"
+            text " /p " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -502,7 +503,7 @@ screen lesson_three_ls13_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_13
-            text "Collaboration" size 32 color "#ffffff" 
+            text "Collaboration" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 660
@@ -511,7 +512,7 @@ screen lesson_three_ls13_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_13
-            text "Compatible" size 32 color "#ffffff"
+            text "Compatible" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -581,7 +582,7 @@ screen lesson_three_ls14_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_14
-            text "<tail>" size 32 color "#ffffff" 
+            text "<tail>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -590,7 +591,7 @@ screen lesson_three_ls14_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_14
-            text "<body>" size 32 color "#ffffff"
+            text "<body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -652,7 +653,7 @@ screen lesson_three_ls15_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_15
-            text "</body>" size 32 color "#ffffff" 
+            text "</body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -661,7 +662,7 @@ screen lesson_three_ls15_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_15
-            text "<body>" size 32 color "#ffffff"
+            text "<body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -732,7 +733,7 @@ screen lesson_three_ls16_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_16
-            text "</body>" size 32 color "#ffffff" 
+            text "</body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -741,7 +742,7 @@ screen lesson_three_ls16_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_16
-            text "<body>" size 32 color "#ffffff"
+            text "<body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 690
@@ -750,7 +751,7 @@ screen lesson_three_ls16_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lth_16
-            text "<p>The content of the page</p> " size 32 color "#ffffff"
+            text "<p>The content of the page</p> " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -828,7 +829,7 @@ screen lesson_three_ls17_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_17
-            text "/tail" size 32 color "#ffffff" 
+            text "/tail" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -837,7 +838,7 @@ screen lesson_three_ls17_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_17
-            text "body" size 32 color "#ffffff"
+            text "body" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -900,7 +901,7 @@ screen lesson_three_ls19_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_19
-            text "<head>" size 32 color "#ffffff" 
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 590
@@ -909,7 +910,7 @@ screen lesson_three_ls19_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_19
-            text "</body>" size 32 color "#ffffff"
+            text "</body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -981,7 +982,7 @@ screen lesson_three_ls20_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_20
-            text "<head>" size 32 color "#ffffff" 
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -990,7 +991,7 @@ screen lesson_three_ls20_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_20
-            text "</head>" size 32 color "#ffffff"
+            text "</head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -1061,7 +1062,7 @@ screen lesson_three_ls21_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_21
-            text "<head>" size 32 color "#ffffff" 
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -1070,7 +1071,7 @@ screen lesson_three_ls21_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_21
-            text "<body>" size 32 color "#ffffff"
+            text "<body>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -1101,12 +1102,12 @@ screen lesson_three_ls22_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lth22_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lth22_when_run") 
 
 
 ###########################################################################################################################
@@ -1117,12 +1118,12 @@ screen lesson_three_ls23_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lth23_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lth23_when_run") 
 
 
 ###########################################################################################################################
@@ -1133,12 +1134,12 @@ screen lesson_three_ls24_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("lth24_when_run") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("lth24_when_run") 
 
 
 ###########################################################################################################################
@@ -1189,7 +1190,7 @@ screen lesson_three_ls24_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lth_24
-            text " Indented code " size 32 color "#ffffff" 
+            text " Indented code " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 310
@@ -1198,7 +1199,7 @@ screen lesson_three_ls24_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lth_24
-            text " Code organized into different lines" size 32 color "#ffffff"
+            text " Code organized into different lines" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 310
@@ -1207,7 +1208,7 @@ screen lesson_three_ls24_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lth_24
-            text " Spaces" size 32 color "#ffffff"
+            text " Spaces" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
