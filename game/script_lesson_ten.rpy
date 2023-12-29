@@ -55,7 +55,7 @@ label lesson_ten:
  
         label if_ltn2_wrong:
             "incorrect"
-            jump choices_tn2
+            jump lessonTenFillTwo
 
 
     label lessonTenFillThree:
@@ -139,7 +139,7 @@ label lesson_ten:
  
         label if_lten7_wrong:
             "incorrect"
-            jump choices_t7
+            jump lessonTenFillSeven
 
 
     label lessonTenFillEight:
@@ -176,7 +176,7 @@ label lesson_ten:
  
         label if_lten9_wrong:
             "incorrect"
-            jump choices_t9
+            jump lessonTenFillNine
 
 
     label lessonTenFillTen:
@@ -261,7 +261,7 @@ label lesson_ten:
  
         label if_lten14_wrong:
             "incorrect"
-            jump choices_t14
+            jump lessonTenFillFourteen
 
 
     label lessonTenFillFifteen:
@@ -280,7 +280,7 @@ label lesson_ten:
  
         label if_lten15_wrong:
             "incorrect"
-            jump choices_t15
+            jump lessonTenFillFifteen
 
 
     label lessonTenFillSixteen:
@@ -299,7 +299,7 @@ label lesson_ten:
  
         label if_lten16_wrong:
             "incorrect"
-            jump choices_t16
+            jump lessonTenFillSixteen
 
 
     label lessonTenFillSeventeen:
@@ -321,7 +321,7 @@ label lesson_ten:
         label when_run_ten_eighteen:
             scene lesson_10_18_run 
             "Great! remember the difference of {b}colspan{/b} and {b}rowspan{/b}."
-            jump yawa
+            jump lessonNineFillNineteen
 
 
 

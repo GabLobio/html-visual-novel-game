@@ -60,7 +60,7 @@ label lesson_nine:
  
         label if_ln2_wrong:
             "incorrect"
-            jump choices_n2
+            jump lessonNineFillTwo
 
 
     label lessonNineFillThree:
@@ -77,7 +77,7 @@ label lesson_nine:
  
         label if_ln3_wrong:
             "incorrect"
-            jump choices_n3
+            jump lessonNineFillThree
 
 
     label lessonNineFillFour:
@@ -117,7 +117,7 @@ label lesson_nine:
  
         label if_ln6_wrong:
             "incorrect"
-            jump choices_n6
+            jump lessonNineFillSix
 
 
     label lessonNineFillSeven:
@@ -146,7 +146,7 @@ label lesson_nine:
  
         label if_ln8_wrong:
             "incorrect"
-            jump choices_n8
+            jump lessonNineFillEight
 
 
     label lessonNineFillTen:
@@ -165,7 +165,7 @@ label lesson_nine:
 
         label if_ln10_wrong:
             "incorrect"
-            jump choices_n10
+            jump lessonNineFillTen
 
 
     label lessonNineFillEleven:
@@ -214,7 +214,7 @@ label lesson_nine:
 
         label if_ln13_wrong:
             "incorrect"
-            jump choices_n13
+            jump lessonNineFillThirteen
 
 
     label lessonNineFillFourteen:
@@ -233,7 +233,7 @@ label lesson_nine:
 
         label if_ln14_wrong:
             "incorrect"
-            jump choices_n14
+            jump lessonNineFillFourteen
 
 
     label lessonNineFillFifteen:
@@ -252,7 +252,7 @@ label lesson_nine:
 
         label if_ln15_wrong:
             "incorrect"
-            jump choices_n15
+            jump lessonNineFillFifteen
 
 
     label lessonNineFillSixteen:
@@ -271,11 +271,11 @@ label lesson_nine:
 
         label if_ln16_wrong:
             "incorrect"
-            jump choices_n16
+            jump lessonNineFillSixteen
 
 
     label lessonNineFillSeventeen:
-        scene l9f17
+        scene lesson_8_22
         "Complete the code to group and align the elements to the center"
         call screen lesson_nine_ls17_fill
 

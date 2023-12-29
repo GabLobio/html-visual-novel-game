@@ -48,7 +48,7 @@ screen lesson_eight_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_1
-            text "design" size 32 color "#ffffff" 
+            text "design" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 500
@@ -57,7 +57,7 @@ screen lesson_eight_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_1
-            text "style" size 32 color "#ffffff"
+            text "style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -121,7 +121,7 @@ screen lesson_eight_ls2_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_2
-            text '"color:blue"' size 32 color "#ffffff" 
+            text '"color:blue"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 565
@@ -130,7 +130,7 @@ screen lesson_eight_ls2_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_2
-            text "    style" size 32 color "#ffffff"
+            text "    style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -202,7 +202,7 @@ screen lesson_eight_ls3_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_3
-            text "</h1>" size 32 color "#ffffff" 
+            text "</h1>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 478
@@ -211,7 +211,7 @@ screen lesson_eight_ls3_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_3
-            text ' " ; " ' size 32 color "#ffffff"
+            text ' " ; " ' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -282,7 +282,7 @@ screen lesson_eight_ls5_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_5
-            text "</p>" size 32 color "#ffffff" 
+            text "</p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 465
@@ -291,7 +291,7 @@ screen lesson_eight_ls5_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_5
-            text "style" size 32 color "#ffffff"
+            text "style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -363,7 +363,7 @@ screen lesson_eight_ls8_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_8
-            text "</button>" size 32 color "#ffffff" 
+            text "</button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 544
@@ -372,7 +372,7 @@ screen lesson_eight_ls8_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_8
-            text "   style" size 32 color "#ffffff"
+            text "   style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -407,10 +407,11 @@ screen lesson_eight_ls10_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1700
-        ypos 50
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_one_value == "" and input_two_value == "":
             action ShowMenu("error_msg_et")
         elif input_one_value == "style" and input_two_value == "</h1>":
@@ -472,10 +473,11 @@ screen error_msg_et():
     image "images/lesson_eight/lesson 8.22.png" 
         
     text "Error!!!" size 28 color "#ffffff" xpos 160 ypos 191 xoffset 6 yoffset 6
-    textbutton "( Return? )":
-        xpos 160
-        ypos 777
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/reset_button.png"
+        hover "images/interactive_button/reset_button_hover.png"
         action Return()
 
 
@@ -491,10 +493,11 @@ screen lesson_eight_ls11_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1700
-        ypos 50
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_one_value == "" and input_two_value == "" and input_three_value == "":
             action ShowMenu("error_msg_et")
         elif input_one_value == "style" and input_two_value == "black" and input_three_value == "color":
@@ -612,7 +615,7 @@ screen lesson_eight_ls12_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_12
-            text "style" size 32 color "#ffffff" 
+            text "style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 464
@@ -621,7 +624,7 @@ screen lesson_eight_ls12_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_12
-            text "border" size 32 color "#ffffff"
+            text "border" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -692,7 +695,7 @@ screen lesson_eight_ls13_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_13
-            text "red" size 32 color "#ffffff" 
+            text "red" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 441
@@ -701,7 +704,7 @@ screen lesson_eight_ls13_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_13
-            text "solid" size 32 color "#ffffff"
+            text "solid" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 562
@@ -710,7 +713,7 @@ screen lesson_eight_ls13_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_let_13
-            text "1px" size 32 color "#ffffff"
+            text "1px" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -787,7 +790,7 @@ screen lesson_eight_ls14_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_14
-            text "border" size 32 color "#ffffff" 
+            text "border" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 492
@@ -796,7 +799,7 @@ screen lesson_eight_ls14_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_14
-            text "style" size 32 color "#ffffff"
+            text "style" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -824,12 +827,12 @@ screen lesson_eight_ls15_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_et_fifteen") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_et_fifteen") 
 
 ###########################################################################################################################
 
@@ -878,7 +881,7 @@ screen lesson_eight_ls16_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_16
-            text "<button>" size 32 color "#ffffff" 
+            text "<button>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 533
@@ -887,7 +890,7 @@ screen lesson_eight_ls16_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_16
-            text "<p>" size 32 color "#ffffff"
+            text "<p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -956,7 +959,7 @@ screen lesson_eight_ls17_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_17
-            text "<b>" size 32 color "#ffffff" 
+            text "<b>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 454
@@ -965,7 +968,7 @@ screen lesson_eight_ls17_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_17
-            text "<ul>" size 32 color "#ffffff"
+            text "<ul>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -1036,7 +1039,7 @@ screen lesson_eight_ls19_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_19
-            text "<i>" size 32 color "#ffffff" 
+            text "<i>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 441
@@ -1045,7 +1048,7 @@ screen lesson_eight_ls19_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_19
-            text "<b>" size 32 color "#ffffff"
+            text "<b>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 554
@@ -1054,7 +1057,7 @@ screen lesson_eight_ls19_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_let_19
-            text "<u>" size 32 color "#ffffff"
+            text "<u>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -1132,7 +1135,7 @@ screen lesson_eight_ls21_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_let_21
-            text "</p>" size 32 color "#ffffff" 
+            text "</p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 465
@@ -1141,7 +1144,7 @@ screen lesson_eight_ls21_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_let_21
-            text "</a>" size 32 color "#ffffff"
+            text "</a>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 587
@@ -1150,7 +1153,7 @@ screen lesson_eight_ls21_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_let_21
-            text "<p>" size 32 color "#ffffff"
+            text "<p>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -1186,11 +1189,11 @@ screen lesson_eight_ls24_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_et_twtfr") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_et_twtfr") 
 
 ###########################################################################################################################

@@ -48,7 +48,7 @@ screen lesson_seven_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_1
-            text "<footer>" size 32 color "#ffffff" 
+            text "<footer>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 525
@@ -57,7 +57,7 @@ screen lesson_seven_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_1
-            text "<main>" size 32 color "#ffffff"
+            text "<main>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 690
@@ -66,7 +66,7 @@ screen lesson_seven_ls1_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_1
-            text "<header>" size 32 color "#ffffff"
+            text "<header>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -144,7 +144,7 @@ screen lesson_seven_ls2_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_2
-            text "<head>" size 32 color "#ffffff" 
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 509
@@ -153,7 +153,7 @@ screen lesson_seven_ls2_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_2
-            text "<header>" size 32 color "#ffffff"
+            text "<header>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -216,7 +216,7 @@ screen lesson_seven_ls3_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_3
-            text "</header>" size 32 color "#ffffff" 
+            text "</header>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 551
@@ -225,7 +225,7 @@ screen lesson_seven_ls3_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_3
-            text "<header>" size 32 color "#ffffff"
+            text "<header>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 750
@@ -234,7 +234,7 @@ screen lesson_seven_ls3_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_3
-            text "<head>" size 32 color "#ffffff"
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -303,7 +303,7 @@ screen lesson_seven_ls4_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_4
-            text "important" size 32 color "#ffffff" 
+            text "important" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 551
@@ -312,7 +312,7 @@ screen lesson_seven_ls4_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_4
-            text "</main>" size 32 color "#ffffff"
+            text "</main>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 750
@@ -321,7 +321,7 @@ screen lesson_seven_ls4_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_4
-            text "<main>" size 32 color "#ffffff"
+            text "<main>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -390,7 +390,7 @@ screen lesson_seven_ls5_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_5
-            text "<foot>" size 32 color "#ffffff" 
+            text "<foot>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -399,7 +399,7 @@ screen lesson_seven_ls5_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_5
-            text "<footer>" size 32 color "#ffffff"
+            text "<footer>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -461,7 +461,7 @@ screen lesson_seven_ls10_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_10
-            text "<h1>" size 32 color "#ffffff" 
+            text "<h1>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 466
@@ -470,7 +470,7 @@ screen lesson_seven_ls10_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_10
-            text "<header>" size 32 color "#ffffff"
+            text "<header>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 665
@@ -479,7 +479,7 @@ screen lesson_seven_ls10_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_10
-            text "<head>" size 32 color "#ffffff"
+            text "<head>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -554,7 +554,7 @@ screen lesson_seven_ls14_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_14
-            text "<blog>" size 32 color "#ffffff" 
+            text "<blog>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 500
@@ -563,7 +563,7 @@ screen lesson_seven_ls14_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_14
-            text "<article>" size 32 color "#ffffff"
+            text "<article>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -626,7 +626,7 @@ screen lesson_seven_ls15_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_15
-            text "</article>" size 32 color "#ffffff" 
+            text "</article>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 550
@@ -635,7 +635,7 @@ screen lesson_seven_ls15_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_15
-            text "<article>" size 32 color "#ffffff"
+            text "<article>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -705,7 +705,7 @@ screen lesson_seven_ls18_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_18
-            text "<part>" size 32 color "#ffffff" 
+            text "<part>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 500
@@ -714,7 +714,7 @@ screen lesson_seven_ls18_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_18
-            text "<section>" size 32 color "#ffffff"
+            text "<section>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -778,7 +778,7 @@ screen lesson_seven_ls19_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_19
-            text "</section>" size 32 color "#ffffff" 
+            text "</section>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 550
@@ -787,7 +787,7 @@ screen lesson_seven_ls19_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_19
-            text "<section>" size 32 color "#ffffff"
+            text "<section>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -857,7 +857,7 @@ screen lesson_seven_ls22_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_22
-            text "<apart>" size 32 color "#ffffff" 
+            text "<apart>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -866,7 +866,7 @@ screen lesson_seven_ls22_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_22
-            text "</aside>" size 32 color "#ffffff"
+            text "</aside>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 710
@@ -875,7 +875,7 @@ screen lesson_seven_ls22_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_22
-            text "<aside>" size 32 color "#ffffff"
+            text "<aside>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
 
@@ -949,7 +949,7 @@ screen lesson_seven_ls27_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsv_27
-            text "<section>" size 32 color "#ffffff" 
+            text "<section>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 550
@@ -958,7 +958,7 @@ screen lesson_seven_ls27_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsv_27
-            text "<article>" size 32 color "#ffffff"
+            text "<article>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 740
@@ -967,7 +967,7 @@ screen lesson_seven_ls27_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsv_27
-            text "<aside>" size 32 color "#ffffff"
+            text "<aside>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
 

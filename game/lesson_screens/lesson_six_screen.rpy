@@ -44,7 +44,7 @@ screen lesson_six_ls0_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_0
-            text "select" size 32 color "#ffffff" 
+            text "select" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 480
@@ -53,7 +53,7 @@ screen lesson_six_ls0_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_0
-            text "menu" size 32 color "#ffffff"
+            text "menu" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 630
@@ -62,7 +62,7 @@ screen lesson_six_ls0_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_0
-            text "list" size 32 color "#ffffff"
+            text "list" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -126,7 +126,7 @@ screen lesson_six_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_1
-            text "</option>" size 32 color "#ffffff" 
+            text "</option>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 560
@@ -135,7 +135,7 @@ screen lesson_six_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_1
-            text "   Opt 2  " size 32 color "#ffffff"
+            text "   Opt 2  " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 760
@@ -144,7 +144,7 @@ screen lesson_six_ls1_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_1
-            text "<option>" size 32 color "#ffffff"
+            text "<option>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -224,7 +224,7 @@ screen lesson_six_ls2_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_2
-            text "<select>" size 32 color "#ffffff" 
+            text "<select>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -233,7 +233,7 @@ screen lesson_six_ls2_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_2
-            text "</form>" size 32 color "#ffffff"
+            text "</form>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 690
@@ -242,7 +242,7 @@ screen lesson_six_ls2_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_2
-            text "</select>" size 32 color "#ffffff"
+            text "</select>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -321,7 +321,7 @@ screen lesson_six_ls3_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_3
-            text "property" size 32 color "#ffffff" 
+            text "property" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -330,7 +330,7 @@ screen lesson_six_ls3_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_3
-            text "name" size 32 color "#ffffff"
+            text "name" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -352,12 +352,12 @@ screen lesson_six_ls5_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_six_five") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_six_five") 
 
 screen lesson_six_click():
     image "images/lesson_six/lesson_6_5_run.png" 
@@ -367,7 +367,7 @@ screen lesson_six_click():
     vbox:
         xpos 1151
         ypos 206
-        textbutton "     ":
+        textbutton "            ":
             style_prefix "my"
             action Jump("lesson_six_clicked") 
 
@@ -420,7 +420,7 @@ screen lesson_six_ls8_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_8
-            text "</label>" size 32 color "#ffffff" 
+            text "</label>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 520
@@ -429,7 +429,7 @@ screen lesson_six_ls8_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_8
-            text "<label>" size 32 color "#ffffff"
+            text "<label>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -499,7 +499,7 @@ screen lesson_six_ls9_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_9
-            text "id attribute" size 32 color "#ffffff" 
+            text "id attribute" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 580
@@ -508,7 +508,7 @@ screen lesson_six_ls9_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_9
-            text "for attribute" size 32 color "#ffffff"
+            text "for attribute" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -580,7 +580,7 @@ screen lesson_six_ls12_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_12
-            text "</select>" size 32 color "#ffffff" 
+            text "</select>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 532
@@ -589,7 +589,7 @@ screen lesson_six_ls12_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_12
-            text '   "s1"' size 32 color "#ffffff"
+            text '   "s1"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 643
@@ -598,7 +598,7 @@ screen lesson_six_ls12_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_12
-            text "    for" size 32 color "#ffffff"
+            text "    for" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -678,7 +678,7 @@ screen lesson_six_ls13_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_13
-            text "radio button" size 32 color "#ffffff" 
+            text "radio button" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 572
@@ -687,7 +687,7 @@ screen lesson_six_ls13_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_13
-            text "checkbox" size 32 color "#ffffff"
+            text "checkbox" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 769
@@ -696,7 +696,7 @@ screen lesson_six_ls13_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_13
-            text "submit button" size 32 color "#ffffff"
+            text "submit button" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 1030
@@ -705,7 +705,7 @@ screen lesson_six_ls13_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lsx_13
-            text "text box" size 32 color "#ffffff"
+            text "text box" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -751,12 +751,12 @@ screen lesson_six_ls14_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_six_fourteen") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_six_fourteen") 
 
 ###########################################################################################################################
 
@@ -804,7 +804,7 @@ screen lesson_six_ls16_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_16
-            text "<movie>" size 32 color "#ffffff" 
+            text "<movie>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 530
@@ -813,7 +813,7 @@ screen lesson_six_ls16_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_16
-            text "<video>" size 32 color "#ffffff"
+            text "<video>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 710
@@ -822,7 +822,7 @@ screen lesson_six_ls16_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_16
-            text "<img>" size 32 color "#ffffff"
+            text "<img>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -885,7 +885,7 @@ screen lesson_six_ls18_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_18
-            text "</video>" size 32 color "#ffffff" 
+            text "</video>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -894,7 +894,7 @@ screen lesson_six_ls18_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_18
-            text "<video>" size 32 color "#ffffff"
+            text "<video>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -963,7 +963,7 @@ screen lesson_six_ls19_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_19
-            text "origin" size 32 color "#ffffff" 
+            text "origin" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 470
@@ -972,7 +972,7 @@ screen lesson_six_ls19_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_19
-            text "<source" size 32 color "#ffffff"
+            text "<source" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1034,7 +1034,7 @@ screen lesson_six_ls20_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_20
-            text "    src" size 32 color "#ffffff" 
+            text "    src" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -1043,7 +1043,7 @@ screen lesson_six_ls20_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_20
-            text "<source" size 32 color "#ffffff"
+            text "<source" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1112,7 +1112,7 @@ screen lesson_six_ls21_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_21
-            text "  type" size 32 color "#ffffff" 
+            text "  type" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -1121,7 +1121,7 @@ screen lesson_six_ls21_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_21
-            text "    src" size 32 color "#ffffff"
+            text "    src" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1190,7 +1190,7 @@ screen lesson_six_ls22_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_22
-            text "doc/pdf" size 32 color "#ffffff" 
+            text "doc/pdf" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -1199,7 +1199,7 @@ screen lesson_six_ls22_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_22
-            text "img/png" size 32 color "#ffffff"
+            text "img/png" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 710
@@ -1208,7 +1208,7 @@ screen lesson_six_ls22_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_22
-            text "video/mp4" size 32 color "#ffffff"
+            text "video/mp4" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1270,7 +1270,7 @@ screen lesson_six_ls23_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_23
-            text "video/webm" size 32 color "#ffffff" 
+            text "video/webm" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 570
@@ -1279,7 +1279,7 @@ screen lesson_six_ls23_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_23
-            text "video/ogg" size 32 color "#ffffff"
+            text "video/ogg" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 759
@@ -1288,7 +1288,7 @@ screen lesson_six_ls23_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_23
-            text "source" size 32 color "#ffffff"
+            text "source" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1358,7 +1358,7 @@ screen lesson_six_ls26_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_26
-            text "video/ogg" size 32 color "#ffffff" 
+            text "video/ogg" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 564
@@ -1367,7 +1367,7 @@ screen lesson_six_ls26_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_26
-            text "video/mp4" size 32 color "#ffffff"
+            text "video/mp4" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1436,7 +1436,7 @@ screen lesson_six_ls27_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_27
-            text "   play" size 32 color "#ffffff" 
+            text "   play" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 490
@@ -1445,7 +1445,7 @@ screen lesson_six_ls27_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_27
-            text "controls" size 32 color "#ffffff"
+            text "controls" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 670
@@ -1454,7 +1454,7 @@ screen lesson_six_ls27_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_27
-            text "volume" size 32 color "#ffffff"
+            text "volume" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1475,12 +1475,12 @@ screen lesson_six_ls28_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_six_twenteight") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_six_twenteight") 
 
 ###########################################################################################################################
 
@@ -1532,7 +1532,7 @@ screen lesson_six_ls30_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_30
-            text "<source>" size 32 color "#ffffff" 
+            text "<source>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 556
@@ -1541,7 +1541,7 @@ screen lesson_six_ls30_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_30
-            text "src attribute" size 32 color "#ffffff"
+            text "src attribute" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 791
@@ -1550,7 +1550,7 @@ screen lesson_six_ls30_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_30
-            text "type attribute" size 32 color "#ffffff"
+            text "type attribute" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 1047
@@ -1559,7 +1559,7 @@ screen lesson_six_ls30_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lsx_30
-            text "<video>" size 32 color "#ffffff"
+            text "<video>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1647,7 +1647,7 @@ screen lesson_six_ls31_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_31
-            text "<sound>" size 32 color "#ffffff"
+            text "<sound>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 527
@@ -1656,7 +1656,7 @@ screen lesson_six_ls31_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_31
-            text "</audio>" size 32 color "#ffffff"
+            text "</audio>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 714
@@ -1665,7 +1665,7 @@ screen lesson_six_ls31_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_31
-            text "<audio>" size 32 color "#ffffff"
+            text "<audio>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         
         
@@ -1735,7 +1735,7 @@ screen lesson_six_ls32_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_32
-            text "option" size 32 color "#ffffff"
+            text "option" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 500
@@ -1744,7 +1744,7 @@ screen lesson_six_ls32_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_32
-            text "source" size 32 color "#ffffff"
+            text "source" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -1808,7 +1808,7 @@ screen lesson_six_ls34_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_34
-            text "  type" size 32 color "#ffffff"
+            text "  type" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 480
@@ -1817,7 +1817,7 @@ screen lesson_six_ls34_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_34
-            text "   src" size 32 color "#ffffff"
+            text "   src" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -1889,7 +1889,7 @@ screen lesson_six_ls35_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_35
-            text '"video/mpeg"' size 32 color "#ffffff"
+            text '"video/mpeg"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 596
@@ -1898,7 +1898,7 @@ screen lesson_six_ls35_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_35
-            text '"audio/mpeg"' size 32 color "#ffffff"
+            text '"audio/mpeg"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 851
@@ -1907,7 +1907,7 @@ screen lesson_six_ls35_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_35
-            text '"audio/ogg"' size 32 color "#ffffff"
+            text '"audio/ogg"' size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
 
         
@@ -1981,7 +1981,7 @@ screen lesson_six_ls42_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lsx_42
-            text "controls" size 32 color "#ffffff"
+            text "controls" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 493
@@ -1990,7 +1990,7 @@ screen lesson_six_ls42_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lsx_42
-            text "loop" size 32 color "#ffffff"
+            text "loop" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 609
@@ -1999,7 +1999,7 @@ screen lesson_six_ls42_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lsx_42
-            text "autoplay" size 32 color "#ffffff"
+            text "autoplay" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 789
@@ -2008,7 +2008,7 @@ screen lesson_six_ls42_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lsx_42
-            text "muted" size 32 color "#ffffff"
+            text "muted" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place

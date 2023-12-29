@@ -50,7 +50,7 @@ screen lesson_nine_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lnn_1
-            text "<div>" size 32 color "#ffffff" outlines [ (1, "#000000", 1, 1) ]
+            text "<div>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 479
@@ -59,7 +59,7 @@ screen lesson_nine_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lnn_1
-            text "</div>" size 32 color "#ffffff" outlines [ (1, "#000000", 1, 1) ]
+            text "</div>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -82,12 +82,12 @@ screen lesson_nine_ls4_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_nn_four") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_nn_four") 
 
 
 ###########################################################################################################################
@@ -97,10 +97,11 @@ screen error_msg_nine():
     image "images/lesson_eight/lesson 8.22.png" 
         
     text "Error!!!" size 28 color "#ffffff" xpos 160 ypos 191 xoffset 6 yoffset 6
-    textbutton "Return":
-        xpos 1200
-        ypos 102    
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/reset_button.png"
+        hover "images/interactive_button/reset_button_hover.png"
         action Return()
 
 
@@ -118,10 +119,11 @@ screen lesson_nine_ls5_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1200
-        ypos 102
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_1_value == "" and input_2_value == "" and input_3_value == "" and input_4_value == "" and input_5_value == "":
             action ShowMenu("error_msg_nine")
         elif input_1_value == "<div>" and input_2_value == "<h2>" and input_3_value == "</h2>" and input_4_value == "<p>" and input_5_value == "src":
@@ -244,12 +246,12 @@ screen lesson_nine_ls7_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_nn_seven") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_nn_seven") 
 
 
 ###########################################################################################################################
@@ -266,10 +268,11 @@ screen lesson_nine_ls9_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1200
-        ypos 102
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_1_value == "" and input_2_value == "" and input_3_value == "" and input_4_value == "" and input_5_value == "":
             action ShowMenu("error_msg_nine")
         elif input_1_value == "<div>" and input_2_value == "<h2>" and input_3_value == "</h2>" and input_4_value == "<p>" and input_5_value == "src":
@@ -392,12 +395,12 @@ screen lesson_nine_ls11_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_nn_eleven") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_nn_eleven") 
 
 
 ###########################################################################################################################
@@ -444,7 +447,7 @@ screen lesson_nine_ls12_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lnn_12
-            text "blue" size 32 color "#ffffff" 
+            text "blue" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 456
@@ -453,7 +456,7 @@ screen lesson_nine_ls12_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lnn_12
-            text "red" size 32 color "#ffffff"
+            text "red" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -487,10 +490,11 @@ screen lesson_nine_ls17_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1200
-        ypos 102
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_1_value == "" and input_2_value == "":
             action ShowMenu("error_msg_nine")
         elif input_1_value == "style" and input_2_value == "</div>":

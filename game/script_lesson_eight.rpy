@@ -202,7 +202,6 @@ label lesson_eight:
 
     label lessonEightFillTen:
         scene lesson_8_22
-        scene l8f10
         "Try to complete the missing code"
         "The open and close parenthesis indicates the missing tag so click it to input a code"
         "Also if you got an error, you can click the return text button to return to your code"
@@ -215,7 +214,7 @@ label lesson_eight:
 
 
     label lessonEightFillEleven:
-        scene l8f11
+        scene lesson_8_22
         "Let's practice again"
         call screen lesson_eight_ls11_fill
 

@@ -49,7 +49,7 @@ screen lesson_ten_ls1_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_1
-            text "</table>" size 32 color "#ffffff" 
+            text "</table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -58,7 +58,7 @@ screen lesson_ten_ls1_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_1
-            text "<table>" size 32 color "#ffffff"
+            text "<table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -126,7 +126,7 @@ screen lesson_ten_ls3_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_3
-            text "</table>" size 32 color "#ffffff" 
+            text "</table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 521
@@ -135,7 +135,7 @@ screen lesson_ten_ls3_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_3
-            text "</tr>" size 32 color "#ffffff"
+            text "</tr>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 637
@@ -144,7 +144,7 @@ screen lesson_ten_ls3_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lten_3
-            text "<table>" size 32 color "#ffffff"
+            text "<table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -219,7 +219,7 @@ screen lesson_ten_ls4_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_4
-            text "</tr>" size 32 color "#ffffff" 
+            text "</tr>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 469
@@ -228,7 +228,7 @@ screen lesson_ten_ls4_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_4
-            text "</td>" size 32 color "#ffffff"
+            text "</td>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 604
@@ -237,7 +237,7 @@ screen lesson_ten_ls4_fill():
             drag_raise True
             drag_name "answer_3"
             dragged dragged_func_lten_4
-            text "<table>" size 32 color "#ffffff"
+            text "<table>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         drag:
             xpos 784
@@ -246,7 +246,7 @@ screen lesson_ten_ls4_fill():
             drag_raise True
             drag_name "answer_4"
             dragged dragged_func_lten_4
-            text "<td>" size 32 color "#ffffff"
+            text "<td>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
         
         
         # Drop Place
@@ -291,12 +291,12 @@ screen lesson_ten_ls5_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_ten_five") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_ten_five") 
 
 
 ###########################################################################################################################
@@ -307,12 +307,12 @@ screen lesson_ten_ls6_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_ten_six") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_ten_six") 
 
 
 ###########################################################################################################################
@@ -361,7 +361,7 @@ screen lesson_ten_ls8_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_8
-            text " 3 " size 32 color "#ffffff" 
+            text " 3 " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -370,7 +370,7 @@ screen lesson_ten_ls8_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_8
-            text " 2 " size 32 color "#ffffff"
+            text " 2 " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -437,7 +437,7 @@ screen lesson_ten_ls10_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_10
-            text " 3 " size 32 color "#ffffff" 
+            text " 3 " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 450
@@ -446,7 +446,7 @@ screen lesson_ten_ls10_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_10
-            text " 2 " size 32 color "#ffffff"
+            text " 2 " size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -511,7 +511,7 @@ screen lesson_ten_ls11_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_11
-            text "</td>" size 32 color "#ffffff"
+            text "</td>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 476
@@ -520,7 +520,7 @@ screen lesson_ten_ls11_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_11
-            text "<th>" size 32 color "#ffffff"
+            text "<th>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -551,12 +551,12 @@ screen lesson_ten_ls12_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_ten_tweleve") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_ten_tweleve") 
 
 
 ###########################################################################################################################
@@ -602,7 +602,7 @@ screen lesson_ten_ls13_fill():
             drag_raise True
             drag_name "answer_1"
             dragged dragged_func_lten_13
-            text "</td>" size 32 color "#ffffff" 
+            text "</td>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
         drag:
             xpos 476
@@ -611,7 +611,7 @@ screen lesson_ten_ls13_fill():
             drag_raise True
             drag_name "answer_2"
             dragged dragged_func_lten_13
-            text "<th>" size 32 color "#ffffff"
+            text "<th>" size 32 color "#ffffff" outlines [ (1, "#ffa217b9", 0, 0) ]
 
 
         
@@ -642,12 +642,12 @@ screen lesson_ten_ls17_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_ten_seventeen") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_ten_seventeen") 
 
 
 ###########################################################################################################################
@@ -658,12 +658,12 @@ screen lesson_ten_ls18_fill():
     
 
 
-    vbox:
-        xpos 870
-        ypos 880
-        textbutton "Run":
-            style_prefix "my"
-            action Jump("when_run_ten_eighteen") 
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
+        action Jump("when_run_ten_eighteen") 
 
 
 ###########################################################################################################################
@@ -681,10 +681,11 @@ screen lesson_nine_ls19_fill():
     default active_input = 0
     default max_input_length = 10
 
-    textbutton "Run":
-        xpos 1200
-        ypos 102
-        style_prefix "my"
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/run_button.png"
+        hover "images/interactive_button/run_button_hover.png"
         if input_1_value == "" and input_2_value == "" and input_3_value == "" and input_4_value == "" and input_5_value == "" and input_6_value == "":
             action ShowMenu("error_msg_nine")
         elif input_1_value == "<table>" and input_2_value == "<th>" and input_3_value == "</th>" and input_4_value == "</tr>" and input_5_value == "</td>" and input_6_value == "<tr>":
@@ -701,7 +702,7 @@ screen lesson_nine_ls19_fill():
             
         vbox:
             ############### INPUTS ###############
-
+            text "Complete the code\n" size 32 color "#ffffff" xoffset 6 yoffset 6
             hbox:
 
 
@@ -715,7 +716,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_1_value")
                             
                 else:
-                    textbutton "([input_1_value])":
+                    textbutton '"[input_1_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 1)
 
@@ -735,7 +736,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_2_value")
                             
                 else:
-                    textbutton "([input_2_value])":
+                    textbutton '"[input_2_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 2)
 
@@ -751,7 +752,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_3_value")
                             
                 else:
-                    textbutton "([input_3_value])":
+                    textbutton '"[input_3_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 3)
 
@@ -768,7 +769,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_4_value")
                             
                 else:
-                    textbutton "([input_4_value])":
+                    textbutton '"[input_4_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 4)
 
@@ -790,7 +791,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_5_value")
                             
                 else:
-                    textbutton "([input_5_value])":
+                    textbutton '"[input_5_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 5)
             
@@ -810,7 +811,7 @@ screen lesson_nine_ls19_fill():
                         value ScreenVariableInputValue("input_6_value")
                             
                 else:
-                    textbutton "([input_6_value])":
+                    textbutton '"[input_6_value]"':
                         style_prefix "my"
                         action SetScreenVariable("active_input", 6)
 
