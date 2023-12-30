@@ -18,7 +18,6 @@ label start:
 
     scene bg_classroom
 
-    jump lessonNineFillNineteen
 
     "You are in the Classroom right now"
 

@@ -127,6 +127,35 @@ screen scrollable_screen():
     default input_two_value = "?"
     default input_three_value = "?"
 
+    default input_title = "?"
+    default input_img_src = "?"
+    default section_1 = "?"
+
+    default section_2_href = "?"
+    default section_2 = "?"
+
+    default id_section_1 = "?"
+    default section_1_number = "?"
+    default section_1_name = "name"
+    default section_1_color = "?"
+    default section_1_why = "why?"
+
+    default section_2_number = "?"
+    default section_2_name = "name"
+    default section_2_color = "?"
+    default section_2_why = "why?"
+
+    default line_33_div = "?"
+    default line_34_for = "?"
+
+    default line_36_tag = "?"
+    default line_37_tag = "?"
+
+    default line_38_select = "?"
+
+    default line_41_control = "?"
+    default line_42_src = "?"
+
     default active_input = 0
 
     imagebutton:
@@ -189,7 +218,23 @@ screen scrollable_screen():
                         textbutton "  3": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 3)
-                        text "      <title></title>" size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        text "      <title>" size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 3:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("input_title")
+                                    
+                        else:
+                            textbutton '[input_title]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 3)
+
+                        text "</title>" size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "  4": 
@@ -241,7 +286,23 @@ screen scrollable_screen():
                         textbutton "11": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 11)
-                        text '          <img src="images/mrs_rodriguez_button.png" alt="Adventure Image">' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        text '          <img src= ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 11:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("input_img_src")
+                                    
+                        else:
+                            textbutton '[input_img_src]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 11)
+
+                        text 'alt="Mrs Rodriguez">' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "12": 
@@ -265,7 +326,7 @@ screen scrollable_screen():
                         textbutton "15": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 15)
-                        text '          <p>My favorite lesson:</p>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <p>My two favorite lesson:</p>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "16": 
@@ -283,13 +344,59 @@ screen scrollable_screen():
                         textbutton "18": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 18)
-                        text '              <li><a href="#section1">Lesson 1</a></li>' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        text '              <li><a href="#section1"> ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 18:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_1")
+                                    
+                        else:
+                            textbutton '[section_1]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 18)
+                        
+                        text '</a></li>' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "19": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 19)
-                        text '              <li><a href="#section2">Lesson 5</a></li>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <li><a href= ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 19:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2_href")
+                                    
+                        else:
+                            textbutton '[section_2_href]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 19)
+                        
+                        text '>' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 19.2:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2")
+                                    
+                        else:
+                            textbutton '[section_2]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 19.2)
+
+                        text '</a></li>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "20": 
@@ -303,23 +410,105 @@ screen scrollable_screen():
                             action SetScreenVariable("active_input", 21)
                         text "       " size 24 color "#cecece" xoffset 6 yoffset 6
 
+
+
+
+
+
+
+
                     hbox:
                         textbutton "22": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 22)
-                        text '          <div id="section1">' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <div id= ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 22:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("id_section_1")
+                                    
+                        else:
+                            textbutton '[id_section_1]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 22)
+
+                        text '>' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "23": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 23)
-                        text '              <h2>Lesson Number: Lesson Name</h2>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <h2>Lesson ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 23:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_1_number")
+                                    
+                        else:
+                            textbutton '[section_1_number]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 23)
+                                
+                        text ': ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 23.1:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_1_name")
+                                    
+                        else:
+                            textbutton '[section_1_name]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 23.1)
+
+                        text '</h2>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "24": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 24)
-                        text '              <p style="color:blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, illum?</p>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <p style="color: ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 24:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_1_color")
+                                    
+                        else:
+                            textbutton '[section_1_color]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 24)
+
+                        text '">' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 24.1:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_1_why")
+                                    
+                        else:
+                            textbutton '[section_1_why]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 24.1)
+
+                        text '</p>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "25": 
@@ -327,6 +516,14 @@ screen scrollable_screen():
                             action SetScreenVariable("active_input", 25)
                         text '          </div' size 24 color "#cecece" xoffset 6 yoffset 6
                     
+
+
+
+
+
+
+
+
                     hbox:
                         textbutton "26": 
                             style_prefix "my"   
@@ -343,26 +540,90 @@ screen scrollable_screen():
                         textbutton "28": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 28)
-                        text '              <h2>Lesson Number: Lesson Name</h2>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <h2>Lesson ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 28:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2_number")
+                                    
+                        else:
+                            textbutton '[section_2_number]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 28)
+                                
+                        text ': ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 28.1:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2_name")
+                                    
+                        else:
+                            textbutton '[section_2_name]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 28.1)
+
+                        text '</h2>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "29": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 29)
-                        text '              <p style="color:red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae architecto et reprehenderit!</p>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <p style="color: ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 29:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2_color")
+                                    
+                        else:
+                            textbutton '[section_2_color]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 29)
+
+                        text '">' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 29.1:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("section_2_why")
+                                    
+                        else:
+                            textbutton '[section_2_why]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 29.1)
+
+                        text '</p>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "30": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 30)
                         text '          </div' size 24 color "#cecece" xoffset 6 yoffset 6
-                    
+
                     
                     hbox:
                         textbutton "31": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 31)
                         text "      </div>" size 24 color "#cecece" xoffset 6 yoffset 6
+
+
+
+
 
                     hbox:
                         textbutton "32": 
@@ -376,37 +637,110 @@ screen scrollable_screen():
                         textbutton "33": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 33)
-                        text "      <div>" size 24 color "#cecece" xoffset 6 yoffset 6
+                        text "      " size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 33:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_33_div")
+                                    
+                        else:
+                            textbutton '[line_33_div]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 33)
                     
                     hbox:
                         textbutton "34": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 34)
-                        text '          <label for="select-adventure">These are my favorite tag</label>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <label for= ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 34:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_34_for")
+                                    
+                        else:
+                            textbutton '[line_34_for]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 34)
+
+                        text '>These are my two favorite tag from my two favorite lesson</label>' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "35": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 35)
-                        text '          <select id="select-adventure" name="select-adventure">' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <select id="fav-tag">' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "36": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 36)
-                        text '              <option value="forest">"The img tag"</option>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <option> ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 36:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_36_tag")
+                                    
+                        else:
+                            textbutton '[line_36_tag]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 36)
+
+                        text '</option>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "37": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 37)
-                        text '              <option value="ocean">The </option>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '              <option> ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 37:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_37_tag")
+                                    
+                        else:
+                            textbutton '[line_37_tag]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 37)
+
+                        text '</option>' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "38": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 38)
-                        text '          </select>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 38:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_38_select")
+                                    
+                        else:
+                            textbutton '[line_38_select]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 38)
+
+                        text '>' size 24 color "#cecece" xoffset 6 yoffset 6
 
 
 
@@ -423,22 +757,68 @@ screen scrollable_screen():
                             action SetScreenVariable("active_input", 40)
                         text "       " size 24 color "#cecece" xoffset 6 yoffset 6
 
-
-                    
-                    
                     hbox:
                         textbutton "41": 
                             style_prefix "my"   
-                            action SetScreenVariable("active_input", 41)
-                        text "</body>" size 24 color "#cecece" xoffset 6 yoffset 6
+                            action SetScreenVariable("active_input", 40)
+                        text "      <video " size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 41:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_41_control")
+                                    
+                        else:
+                            textbutton '[line_41_control]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 41)
+
+                        text ">" size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "42": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 42)
-                        textbutton "  1": 
+                            
+                        text '              <source src=" ' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                        if active_input == 42:
+                            input:
+                                xoffset 6
+                                yoffset 6
+                                size 24
+                                length 25
+                                value ScreenVariableInputValue("line_42_src")
+                                    
+                        else:
+                            textbutton '[line_42_src]':
+                                style_prefix "my"
+                                action SetScreenVariable("active_input", 42)
+
+                        text '"' size 24 color "#cecece" xoffset 6 yoffset 6
+
+                    hbox:
+                        textbutton "43": 
                             style_prefix "my"   
-                            action SetScreenVariable("active_input", 1)
+                            action SetScreenVariable("active_input", 43)
+                        text "      </video>" size 24 color "#cecece" xoffset 6 yoffset 6
+                    
+                    
+                    
+                    
+                    hbox:
+                        textbutton "44": 
+                            style_prefix "my"   
+                            action SetScreenVariable("active_input", 44)
+                        text "</body>" size 24 color "#cecece" xoffset 6 yoffset 6
+
+                    hbox:
+                        textbutton "45": 
+                            style_prefix "my"   
+                            action SetScreenVariable("active_input", 45)
                         text "</html>" size 24 color "#cecece" xoffset 6 yoffset 6
 
                     
@@ -456,55 +836,3 @@ screen scrollable_screen():
 
 
 
-
-                    hbox:
-                        textbutton "10": 
-                            style_prefix "my"   
-                            action SetScreenVariable("active_input", 1)
-
-                        text "<button " size 24 color "#ffffff" xoffset 6 yoffset 6
-
-                        if active_input == 1:
-                            input:
-                                xoffset 6
-                                yoffset 6
-                                size 24
-                                length 5
-                                value ScreenVariableInputValue("input_one_value")
-                                    
-                        else:
-                            textbutton '[input_one_value]':
-                                style_prefix "my"
-                                action SetScreenVariable("active_input", 1)
-
-                        text '="background-color:' size 24 color "#ffffff" xoffset 6 yoffset 6
-
-                        if active_input == 2:
-                            input:
-                                xoffset 6
-                                yoffset 6
-                                size 24
-                                length 5
-                                value ScreenVariableInputValue("input_two_value")
-                                    
-                        else:
-                            textbutton '[input_two_value]':
-                                style_prefix "my"
-                                action SetScreenVariable("active_input", 2)
-                        
-                        text '; ' size 24 color "#ffffff" xoffset 6 yoffset 6
-                        
-                        if active_input == 3:
-                            input:
-                                xoffset 6
-                                yoffset 6
-                                size 24
-                                length 5
-                                value ScreenVariableInputValue("input_three_value")
-                                    
-                        else:
-                            textbutton '[input_three_value]':
-                                style_prefix "my"
-                                action SetScreenVariable("active_input", 3)
-                        
-                        text ':white"> OK </button>' size 24 color "#ffffff" xoffset 6 yoffset 6
