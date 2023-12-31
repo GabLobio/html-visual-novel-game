@@ -1,7 +1,9 @@
-
+image html_peter = Movie(play="images/html_peter.webm")
+#image main_menu = Movie(play="html_peter.webm")
 
 screen final_browser():
     image "images/final_browser_screen.png"
+    
 
     hbox:
         xpos 105
@@ -64,6 +66,10 @@ screen final_browser():
                         frame:
                             background Solid("#bdbdbdff")  
                             xoffset 6 
-                            yoffset 23
-                            padding (1, 1,)
-                            text "Anchor tag" size 20 color "#3A3A3A" 
+                            yoffset 25
+                            padding (1, 1)
+                            image "images/dropdown.png" xysize (90,55)
+                    
+                    hbox:
+                        text "\n" size 20 color "#3A3A3A"
+                        add "html_peter"

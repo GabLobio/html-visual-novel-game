@@ -12,6 +12,8 @@ default lesson_eight_finish = False
 default lesson_nine_finish = False
 default lesson_ten_finish = False
 
+#image html_peter = Movie(play='html_peter.webm', size=(100,100), loop=False)
+
 # The game starts here.
 
 label start:
@@ -20,10 +22,7 @@ label start:
 
 
     "You are in the Classroom right now"
-
-
-    call screen final_browser
-    call screen final_screen
+    call screen classroom_ui
 
     label lesson_choices:
 

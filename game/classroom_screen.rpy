@@ -170,10 +170,11 @@ screen final_screen():
         #text_size 46
         idle "images/interactive_button/run_button.png"
         hover "images/interactive_button/run_button_hover.png"
+
         if input_title == "":
             action ShowMenu("error_msg_final_test")
-        elif input_title == "style":
-            action ShowMenu("final_browser")
+        elif input_title == "HTML Lesson" and input_img_src == '"mrs_rodriguez.png"' and section_1 == "Lesson 5" and section_2_href == "#section2" and section_2 == "Lesson 8" and id_section_1 == "section1" and section_1_number == "5" and section_1_name == "Attribute" and section_1_color == "blue" and section_1_why != "" and  section_2_number == "8" and section_2_name == "Style Attribute" and section_2_color == "red" and section_2_why != "" and line_33_div ==    "<div>" and line_34_for == "fav-tag" and line_36_tag == "Anchor Tag" and line_37_tag == "Video Tag" and line_38_select == "/select" and line_41_control == "loop" and line_42_src == "html_peter.webm":
+            action Jump("congrats")
         else:
             action ShowMenu("error_msg_final_test")
  
@@ -290,7 +291,7 @@ screen final_screen():
                                 xoffset 6
                                 yoffset 6
                                 size 24
-                                length 25
+                                length 30
                                 value ScreenVariableInputValue("input_img_src")
                                     
                         else:
@@ -794,7 +795,7 @@ screen final_screen():
                                 style_prefix "my"
                                 action SetScreenVariable("active_input", 42)
 
-                        text '"' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '" type="video/webm"' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "43": 
