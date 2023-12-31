@@ -22,7 +22,8 @@ label start:
     "You are in the Classroom right now"
 
 
-    call screen classroom_ui
+    call screen final_browser
+    call screen final_screen
 
     label lesson_choices:
 
@@ -33,7 +34,10 @@ label start:
                 jump start_final_test
     
     label start_final_test:
-        call screen scrollable_screen
+        call screen final_screen
+
+        label congrats:
+            call screen final_browser
     
 
     return

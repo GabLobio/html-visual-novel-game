@@ -120,12 +120,8 @@ screen error_msg_final_test():
 ###########################################################################################################################
 
 
-screen scrollable_screen():
+screen final_screen():
     image "images/final_screen.png" 
-
-    default input_one_value = "?"
-    default input_two_value = "?"
-    default input_three_value = "?"
 
     default input_title = "?"
     default input_img_src = "?"
@@ -174,10 +170,10 @@ screen scrollable_screen():
         #text_size 46
         idle "images/interactive_button/run_button.png"
         hover "images/interactive_button/run_button_hover.png"
-        if input_one_value == "" and input_two_value == "" and input_three_value == "":
+        if input_title == "":
             action ShowMenu("error_msg_final_test")
-        elif input_one_value == "style" and input_two_value == "black" and input_three_value == "color":
-            action Jump("start")
+        elif input_title == "style":
+            action ShowMenu("final_browser")
         else:
             action ShowMenu("error_msg_final_test")
  
@@ -314,7 +310,7 @@ screen scrollable_screen():
                         textbutton "13": 
                             style_prefix "my"   
                             action SetScreenVariable("active_input", 13)
-                        text '          <p>This is my teacher Rodriguez</p>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '          <p>Teacher Rodriguez</p>' size 24 color "#cecece" xoffset 6 yoffset 6
 
                     hbox:
                         textbutton "14": 
@@ -671,7 +667,7 @@ screen scrollable_screen():
                                 style_prefix "my"
                                 action SetScreenVariable("active_input", 34)
 
-                        text '>These are my two favorite tag from my two favorite lesson</label>' size 24 color "#cecece" xoffset 6 yoffset 6
+                        text '>These are my two favorite element tag</label>' size 24 color "#cecece" xoffset 6 yoffset 6
                     
                     hbox:
                         textbutton "35": 
