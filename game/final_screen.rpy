@@ -73,3 +73,45 @@ screen final_browser():
                     hbox:
                         text "\n" size 20 color "#3A3A3A"
                         add "html_peter"
+
+
+###########################################################################################################################
+
+
+screen task_final_test():
+    image "images/final_browser_screen.png"
+    vbox:
+        text "Error" size 24 color "#c00000" xpos 105 ypos 210 xoffset 6 yoffset 6
+        text "Please, check every line for any errors or mispelled" size 24 color "#c00000" xpos 105 ypos 210 xoffset 6 yoffset 6
+
+    imagebutton:
+        xpos 1770
+        ypos 30
+        idle "images/interactive_button/reset_button.png"
+        hover "images/interactive_button/reset_button_hover.png"
+        action Return()
+
+    viewport:
+            xpos 105
+            ypos 210
+            xysize (1710,790)
+            mousewheel True
+            arrowkeys True 
+            scrollbars "vertical"
+            
+
+
+            
+
+            
+           
+
+            hbox:
+                    
+                vbox:
+                    ############### INPUTS ###############
+                    text "{b}Complete the code{/b}\n\n" 
+
+                    hbox:
+
+###########################################################################################################################
