@@ -21,8 +21,9 @@ label start:
     scene bg_classroom
 
 
+
     "You are in the Classroom right now"
-    call screen task_final_test
+    #call screen task_final_test
     call screen classroom_ui
 
     label lesson_choices:
@@ -41,3 +42,5 @@ label start:
     
 
     return
+
+

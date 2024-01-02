@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/final_screen.rpy", line 6: 'scene' is not a keyword argument or valid child of the screen statement.
-    scene html_peter
-         ^
+File "game/final_screen.rpy", line 134: Line is indented, but the preceding vbox statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    text '\nMrs. Rodriguez values the "Attribute" because Attribute concept adds depth to their comprehension of HTML, contributing to a well-rounded understanding of web development.' size 24 color "#dfdfdf" xoffset 6 yoffset 6
+    ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sun Dec 31 09:58:04 2023
+Wed Jan  3 06:51:46 2024

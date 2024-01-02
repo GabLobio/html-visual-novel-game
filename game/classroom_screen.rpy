@@ -162,6 +162,13 @@ screen final_screen():
         action Jump("start")
 
     imagebutton:
+        xpos 875
+        ypos 30
+        idle "images/interactive_button/task_button.png"
+        hover "images/interactive_button/hover_task_button.png"
+        action ShowMenu("task_final_test")
+
+    imagebutton:
         xpos 1770
         ypos 30
         #text_color "#ff9900"  # Set the text color here\
@@ -224,6 +231,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("input_title")
                                     
                         else:
@@ -292,6 +300,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 30
+                                copypaste True
                                 value ScreenVariableInputValue("input_img_src")
                                     
                         else:
@@ -350,6 +359,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_1")
                                     
                         else:
@@ -371,6 +381,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_2_href")
                                     
                         else:
@@ -386,6 +397,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_2")
                                     
                         else:
@@ -426,6 +438,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("id_section_1")
                                     
                         else:
@@ -447,6 +460,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_1_number")
                                     
                         else:
@@ -462,6 +476,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_1_name")
                                     
                         else:
@@ -483,6 +498,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_1_color")
                                     
                         else:
@@ -497,7 +513,8 @@ screen final_screen():
                                 xoffset 6
                                 yoffset 6
                                 size 24
-                                length 25
+                                length 200
+                                copypaste True
                                 value ScreenVariableInputValue("section_1_why")
                                     
                         else:
@@ -545,6 +562,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_2_number")
                                     
                         else:
@@ -560,6 +578,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_2_name")
                                     
                         else:
@@ -581,6 +600,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("section_2_color")
                                     
                         else:
@@ -595,7 +615,8 @@ screen final_screen():
                                 xoffset 6
                                 yoffset 6
                                 size 24
-                                length 25
+                                length 200
+                                copypaste True
                                 value ScreenVariableInputValue("section_2_why")
                                     
                         else:
@@ -642,6 +663,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_33_div")
                                     
                         else:
@@ -661,6 +683,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_34_for")
                                     
                         else:
@@ -688,6 +711,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_36_tag")
                                     
                         else:
@@ -709,6 +733,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_37_tag")
                                     
                         else:
@@ -730,6 +755,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_38_select")
                                     
                         else:
@@ -766,6 +792,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_41_control")
                                     
                         else:
@@ -788,6 +815,7 @@ screen final_screen():
                                 yoffset 6
                                 size 24
                                 length 25
+                                copypaste True
                                 value ScreenVariableInputValue("line_42_src")
                                     
                         else:
