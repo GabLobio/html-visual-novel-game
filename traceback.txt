@@ -1,32 +1,68 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "game/script.rpy", line 23, in execute_default
-    default txt = "THIS IS A TEXT"
-Exception: store.txt is being given a default a second time.
+After initialization, but before game start.
+  File "game/hint_screens.rpy", line 255, in prepare_screen
+    screen standards_best_practices_hint():
+  File "game/hint_screens.rpy", line 255, in prepare
+    screen standards_best_practices_hint():
+  File "game/hint_screens.rpy", line 265, in prepare
+    viewport:
+  File "game/hint_screens.rpy", line 265, in prepare
+    viewport:
+  File "game/hint_screens.rpy", line 280, in prepare
+    hbox:
+  File "game/hint_screens.rpy", line 280, in prepare
+    hbox:
+  File "game/hint_screens.rpy", line 282, in prepare
+    vbox:
+  File "game/hint_screens.rpy", line 282, in prepare
+    vbox:
+  File "game/hint_screens.rpy", line 300, in prepare
+    text '\n     <!DOCTYPE html>
+SyntaxError: EOL while scanning string literal (game/hint_screens.rpy, line 300)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\exports.py", line 3982, in execute_default_statement
-    i.execute_default(start)
-  File "game/script.rpy", line 23, in execute_default
-    default txt = "THIS IS A TEXT"
-Exception: store.txt is being given a default a second time.
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\main.py", line 670, in main
+    run(restart)
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\main.py", line 93, in run
+    renpy.display.screen.prepare_screens()
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\display\screen.py", line 1003, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/hint_screens.rpy", line 255, in prepare_screen
+    screen standards_best_practices_hint():
+  File "game/hint_screens.rpy", line 255, in prepare
+    screen standards_best_practices_hint():
+  File "game/hint_screens.rpy", line 265, in prepare
+    viewport:
+  File "game/hint_screens.rpy", line 265, in prepare
+    viewport:
+  File "game/hint_screens.rpy", line 280, in prepare
+    hbox:
+  File "game/hint_screens.rpy", line 280, in prepare
+    hbox:
+  File "game/hint_screens.rpy", line 282, in prepare
+    vbox:
+  File "game/hint_screens.rpy", line 282, in prepare
+    vbox:
+  File "game/hint_screens.rpy", line 300, in prepare
+    text '\n     <!DOCTYPE html>
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\py3analysis.py", line 808, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\py3analysis.py", line 790, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\python.py", line 1088, in py_compile
+    raise e
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\python.py", line 1034, in py_compile
+    raise orig_e
+  File "D:\installedApps\Ren'py\renpy-8.1.3-sdk\renpy\python.py", line 1027, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: EOL while scanning string literal (game/hint_screens.rpy, line 300)
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 HTML Lesson 1.0
-Wed Jan  3 06:31:19 2024
+Fri Jan  5 07:22:43 2024

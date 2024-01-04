@@ -20,7 +20,7 @@ label start:
 
     scene bg_classroom
 
-
+    call screen list_hint
 
     "You are in the Classroom right now"
     #call screen task_final_test
