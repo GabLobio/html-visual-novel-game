@@ -291,12 +291,12 @@ label lesson_six:
 
     
     label lessonDropDownTakeaways:
-        scene lesson_drop_down_takeaways with dissolve
+        scene lesson_drop_down_takeaways
         "In the next lesson, you`ll learn to add videos to your web pages."
         jump lessonVideoIntro
     
     label lessonVideoIntro:
-        scene lesson_video_intro with dissolve
+        scene lesson_video_intro
         "In this lesson, you`ll learn to add videos to spice up your pages."
         jump lessonSixFillSixteen
 
