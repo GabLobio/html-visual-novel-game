@@ -19,7 +19,12 @@ screen lesson_two_ls1_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
 
     imagebutton:
         xpos 1640

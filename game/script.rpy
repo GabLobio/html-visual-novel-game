@@ -20,7 +20,7 @@ label start:
 
     scene bg_classroom
 
-    call screen table_hint
+    jump lessonTwoFillone
 
     "You are in the Classroom right now"
     #call screen task_final_test
