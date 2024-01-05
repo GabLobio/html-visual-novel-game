@@ -95,7 +95,12 @@ screen lesson_two_ls2_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
 
     imagebutton:
         xpos 1640
@@ -187,6 +192,13 @@ screen lesson_two_ls6_fill():
 
     default active_input = 0
     default max_input_length = 10
+
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
 
     imagebutton:
         xpos 1770
@@ -354,6 +366,13 @@ screen lesson_two_ls7_fill():
     default max_input_length = 10
 
     imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
+
+    imagebutton:
         xpos 1770
         ypos 30
         idle "images/interactive_button/run_button.png"
@@ -502,12 +521,16 @@ screen lesson_two_ls7_fill():
             action Jump("lessonTwoFillEight") 
         else:
             action Jump("if_lt7_wrong")
-
-
         
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
 
 
     imagebutton:
@@ -591,7 +614,12 @@ screen lesson_two_ls8_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("head_hint")
 
     imagebutton:
         xpos 1640
@@ -761,7 +789,12 @@ screen lesson_two_ls10_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
 
     imagebutton:
         xpos 1640
@@ -839,6 +872,12 @@ screen lesson_two_ls11_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
 
 
     imagebutton:
@@ -912,6 +951,12 @@ screen lesson_two_ls12_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
 
 
     imagebutton:
@@ -986,6 +1031,12 @@ screen lesson_two_ls13_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
 
 
     imagebutton:
@@ -1075,6 +1126,12 @@ screen lesson_two_ls15_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
 
 
     imagebutton:
@@ -1182,7 +1239,13 @@ screen lesson_two_ls18_fill():
         else:
             action ShowMenu("error_msg")
 
-    
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("img_hint")
+
 
 
     hbox:
