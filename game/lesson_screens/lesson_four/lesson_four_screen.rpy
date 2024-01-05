@@ -20,7 +20,12 @@ screen lesson_four_ls2_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -93,7 +98,12 @@ screen lesson_four_ls3_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -185,7 +195,12 @@ screen lesson_four_ls4_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -276,7 +291,12 @@ screen lesson_four_ls5_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -368,7 +388,12 @@ screen lesson_four_ls6_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -475,7 +500,12 @@ screen lesson_four_ls9_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -581,7 +611,12 @@ screen lesson_four_ls11_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -690,7 +725,12 @@ screen lesson_four_ls13_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -790,7 +830,12 @@ screen lesson_four_ls14_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("text_formatting_hint")
 
     imagebutton:
         xpos 1640
@@ -880,7 +925,12 @@ screen lesson_four_ls16_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -959,7 +1009,12 @@ screen lesson_four_ls18_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -1034,7 +1089,12 @@ screen lesson_four_ls19_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -1109,7 +1169,12 @@ screen lesson_four_ls20_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -1202,7 +1267,12 @@ screen lesson_four_ls21_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -1293,7 +1363,12 @@ screen lesson_four_ls22_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")
 
     imagebutton:
         xpos 1640
@@ -1363,7 +1438,12 @@ screen lesson_four_ls23_fill():
         else:
             action ShowMenu("error_msg")
 
-    
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")   
 
 
     hbox:
@@ -1503,7 +1583,12 @@ screen lesson_four_ls25_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")  
 
     imagebutton:
         xpos 1640
@@ -1605,7 +1690,12 @@ screen lesson_four_ls26_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("links_hint")  
 
     imagebutton:
         xpos 1640
@@ -1704,7 +1794,12 @@ screen lesson_four_ls27_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -1777,7 +1872,12 @@ screen lesson_four_ls28_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -1875,7 +1975,12 @@ screen lesson_four_ls29_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -1952,7 +2057,12 @@ screen lesson_four_ls30_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -2067,7 +2177,12 @@ screen lesson_four_ls31_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -2166,7 +2281,12 @@ screen lesson_four_ls33_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -2284,7 +2404,12 @@ screen lesson_four_ls34_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
@@ -2399,7 +2524,12 @@ screen lesson_four_ls35_fill():
         hovered Show("next_button")
         unhovered Hide ("next_button")
 
-
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("list_hint")  
 
     imagebutton:
         xpos 1640
