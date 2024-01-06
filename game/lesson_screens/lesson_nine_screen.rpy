@@ -29,6 +29,13 @@ screen lesson_nine_ls1_fill():
         unhovered Hide ("next_button")
 
     imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("div_hint")
+
+    imagebutton:
         xpos 1640
         ypos 30
         idle "images/interactive_button/reset_button.png"
@@ -131,7 +138,12 @@ screen lesson_nine_ls5_fill():
         else:
             action ShowMenu("error_msg_nine")
 
-    
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("div_hint")
 
 
     hbox:
@@ -280,7 +292,12 @@ screen lesson_nine_ls9_fill():
         else:
             action ShowMenu("error_msg_nine")
 
-    
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("div_hint")
 
 
     hbox:
@@ -426,6 +443,13 @@ screen lesson_nine_ls12_fill():
         unhovered Hide ("next_button")
 
     imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("div_hint")
+
+    imagebutton:
         xpos 1640
         ypos 30
         idle "images/interactive_button/reset_button.png"
@@ -502,7 +526,12 @@ screen lesson_nine_ls17_fill():
         else:
             action ShowMenu("error_msg_nine")
 
-    
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("div_hint")
 
 
     hbox:
