@@ -27,6 +27,13 @@ screen lesson_ten_ls1_fill():
         unhovered Hide ("next_button")
 
     imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
+
+    imagebutton:
         xpos 1640
         ypos 30
         idle "images/interactive_button/reset_button.png"
@@ -103,6 +110,13 @@ screen lesson_ten_ls3_fill():
         
         hovered Show("next_button")
         unhovered Hide ("next_button")
+
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
 
     imagebutton:
         xpos 1640
@@ -196,6 +210,13 @@ screen lesson_ten_ls4_fill():
         
         hovered Show("next_button")
         unhovered Hide ("next_button")
+
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
 
     imagebutton:
         xpos 1640
@@ -338,6 +359,13 @@ screen lesson_ten_ls8_fill():
         unhovered Hide ("next_button")
 
     imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
+
+    imagebutton:
         xpos 1640
         ypos 30
         idle "images/interactive_button/reset_button.png"
@@ -416,6 +444,13 @@ screen lesson_ten_ls10_fill():
         unhovered Hide ("next_button")
 
     imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
+
+    imagebutton:
         xpos 1640
         ypos 30
         idle "images/interactive_button/reset_button.png"
@@ -489,6 +524,13 @@ screen lesson_ten_ls11_fill():
         
         hovered Show("next_button")
         unhovered Hide ("next_button")
+
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
 
     imagebutton:
         xpos 1640
@@ -580,6 +622,13 @@ screen lesson_ten_ls13_fill():
         
         hovered Show("next_button")
         unhovered Hide ("next_button")
+
+    imagebutton:
+        xpos 1510
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
 
     imagebutton:
         xpos 1640
@@ -693,6 +742,12 @@ screen lesson_nine_ls19_fill():
         else:
             action ShowMenu("error_msg_nine")
 
+    imagebutton:
+        xpos 1640
+        ypos 30
+        idle "images/interactive_button/hint_button.png"
+        hover "images/interactive_button/hint_button_hover.png"
+        action ShowMenu("table_hint")
     
 
 
