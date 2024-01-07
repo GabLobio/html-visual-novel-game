@@ -549,6 +549,9 @@ label lesson_eight:
 
 
 
+    $ lesson_eight_finish = True
+    call screen lesson_ui
+
 
 
 

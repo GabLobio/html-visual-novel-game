@@ -453,6 +453,8 @@ label lesson_seven:
 
 
 
+    $ lesson_seven_finish = True
+    call screen lesson_ui
 
 
 

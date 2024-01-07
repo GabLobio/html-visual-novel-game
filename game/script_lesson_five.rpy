@@ -913,6 +913,8 @@ label lesson_five:
         "Bravo! Your coding skills are reaching new heights. Keep exploring, and may your web development adventures continue to thrive!"
 
 
+    $ lesson_five_finish = True
+    call screen lesson_ui
 
 
 

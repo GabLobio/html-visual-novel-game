@@ -292,35 +292,8 @@ label lesson_nine:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    $ lesson_nine_finish = True
+    call screen lesson_ui
 
 
 

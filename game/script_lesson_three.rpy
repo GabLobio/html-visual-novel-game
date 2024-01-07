@@ -438,7 +438,9 @@ label lesson_three:
         "Organized HTML into {b}head{/b} and {b}body{/b} realms, invoked {b}<html>{/b} for universal harmony, and embraced the art of {b}indentation{/b} for readable collaborations."
         "Your coding journey is flourishing—keep up the great work, young {b}coders{/b}! "
 
+    $ lesson_three_finish = True
 
+    call screen lesson_ui
 
     return
 

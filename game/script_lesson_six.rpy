@@ -899,6 +899,8 @@ label lesson_six:
         "In the next lesson you`ll learn page layout to improve your web designs."
 
 
+    $ lesson_six_finish = True
+    call screen lesson_ui
 
 
 
@@ -907,8 +909,3 @@ label lesson_six:
 
     return
 
-
-label yawa:
-    show bg_classroom
-    "yawa ang galing mo!"
-    return

@@ -700,6 +700,9 @@ label lesson_four:
         "Bravo! Keep weaving these HTML tags, and your web development journey will continue to shine brightly. Onward to more coding adventures!"
 
 
+    $ lesson_four_finish = True
+
+    call screen lesson_ui
 
 
 
@@ -723,8 +726,3 @@ label lesson_four:
 
 
 
-
-label good_job:
-    show bg_classroom
-    "good"
-    return

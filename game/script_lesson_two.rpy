@@ -313,6 +313,8 @@ label lesson_two:
         "{b}Images{/b}, our visual pals, can be {b}linked or embedded{/b}—just share their online {b}address!{/b}"
         "No {b}closing tags{/b} for images, keep the {b}URLs{/b} flowing for pixel perfection!"
 
+    $ lesson_two_finish = True
+    call screen lesson_ui
 
 
 
