@@ -20,7 +20,7 @@ label start:
 
     scene bg_classroom
 
-    jump lessonThreeFillEight
+    jump lessonTwoFilltwo
 
     "You are in the Classroom right now"
     #call screen task_final_test

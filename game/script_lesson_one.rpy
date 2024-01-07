@@ -386,10 +386,9 @@ label lesson_one:
         show lesson_one_takeaways
         "In the next lesson, you’ll learn about a new HTML element: the heading.    "
 
+        
+    $ lesson_one_finish = True
     call screen lesson_ui
-
-    label you_pass:
-        "You did it"
 
 
 
